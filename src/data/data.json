@@ -1,0 +1,63 @@
+{
+    "data": [
+        {
+            "id": "ef136b02-c06e-4db2-89f5-a04be0ef233b",
+            "name": "freeCodeCamp Style Guide",
+            "url": "https://design-style-guide.freecodecamp.org/",
+            "description": "A living, breathing style guide for the FreeCodeCamp.org web platform.",
+            "tags": [
+                "styleguide",
+                "design",
+                "freecodecamp",
+                "frontend",
+                "css"
+            ]
+        },
+        {
+            "id": "34c978e2-0054-4f8a-bb2b-cc747ed37e8d",
+            "name": "SmallDev.tools",
+            "url": "https://smalldev.tools/",
+            "description": "A collection of small, useful tools for web developers.",
+            "tags": [
+                "tools",
+                "frontend",
+                "backend",
+                "css",
+                "javascript",
+                "html",
+                "json"
+            ]
+        },
+        {
+            "id": "def94062-289b-44cb-8d35-4e30d057fd3b",
+            "name": "Material Symbols and Icons - Google Fonts",
+            "url": "https://fonts.google.com/icons",
+            "description": "Material Design icons by Google.",
+            "tags": [
+                "icons",
+                "design",
+                "frontend",
+                "css",
+                "svg",
+                "google",
+                "png"
+            ]
+        }
+    ],
+    "tagsColor": {
+        "html": "#e34c26",
+        "css": "#563d7c",
+        "javascript": "#f1e05a",
+        "json": "#292929",
+        "svg": "#ff9900",
+        "google": "#4285f4",
+        "png": "#ee0000",
+        "design": "#ff4081",
+        "styleguide": "#ff4081",
+        "freecodecamp": "#0a0a23",
+        "frontend": "#0a0a23",
+        "backend": "#0a0a23",
+        "tools": "#0a0a23",
+        "icons": "#0a0a23"
+    }
+}
