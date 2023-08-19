@@ -2,7 +2,7 @@
     "data": [
         {
             "id": "ef136b02-c06e-4db2-89f5-a04be0ef233b",
-            "name": "freeCodeCamp Style Guide",
+            "name": "FreeCodeCamp Style Guide",
             "url": "https://design-style-guide.freecodecamp.org/",
             "description": "A living, breathing style guide for the FreeCodeCamp.org web platform.",
             "tags": [
@@ -30,7 +30,7 @@
         },
         {
             "id": "def94062-289b-44cb-8d35-4e30d057fd3b",
-            "name": "Material Symbols and Icons - Google Fonts",
+            "name": "Material Symbols and Icons",
             "url": "https://fonts.google.com/icons",
             "description": "Material Design icons by Google.",
             "tags": [
@@ -42,22 +42,249 @@
                 "google",
                 "png"
             ]
+        },
+        {
+            "id": "25cf90bd-6ba2-492f-bfe6-5cbd4fdffcfa",
+            "name": "HTML Colors, HTML UI Colors, HTML Palette",
+            "url": "https://materialui.co/htmlcolors/",
+            "description": "HTML Colors, HTML UI Colors with HEX, RGB, HSL, Color Names, Color Picker, and color theory.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools"
+            ]
+        },
+        {
+            "id": "e823eee8-1428-4f5a-a876-e65a1cd347af",
+            "name": "Color Hunt - Palettes for Designers and Artists",
+            "url": "https://colorhunt.co/",
+            "description": "Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools"
+            ]
+        },
+        {
+            "id": "e9af5490-27ff-4d7e-a779-77d59ba69b71",
+            "name": "CSS Section Separator Generator",
+            "url": "https://wweb.dev/resources/css-section-separator-generator",
+            "description": "A tool to generate CSS section separators.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools"
+            ]
+        },
+        {
+            "id": "f6a2cf9f-d48c-490d-a657-602999195fc2",
+            "name": "Blur Background CSS Generator",
+            "url": "https://wweb.dev/resources/blur-background-css-generator",
+            "description": "A tool to generate CSS blur background.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools"
+            ]
+        },
+        {
+            "id": "e02366c6-578a-417c-b873-9aedf53d3648",
+            "name": "Iconfinder",
+            "url": "https://www.iconfinder.com/",
+            "description": "Millions of graphics for your design projects. Created by independent designers.",
+            "tags": [
+                "icons",
+                "design",
+                "frontend",
+                "css",
+                "svg",
+                "png"
+            ]
+        },
+        {
+            "id": "5c8fdb17-2fbc-4b7d-90c6-6c0cd1c87069",
+            "name": "CSS Reference",
+            "url": "https://cssreference.io/",
+            "description": "A free visual guide to CSS.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools"
+            ]
+        },
+        {
+            "id": "2223ba3d-2d88-45ee-821c-78211d0a7ca5",
+            "name": "Image Color Extract Tool",
+            "url": "https://www.coolphptools.com/color_extract",
+            "description": "Extract colors from an image and generate a color palette for it.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools"
+            ]
+        },
+        {
+            "id": "21ef3a30-af89-41e3-a22d-197e93e07ef8",
+            "name": "Super Designer",
+            "url": "https://superdesigner.co/",
+            "description": "A collection of free design tools to create unique backgrounds, patterns, shapes, images, and more with just a few clicks",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools"
+            ]
+        },
+        {
+            "id": "3b052b74-e6a3-4088-9ae6-2d2316f72075",
+            "name": "Animate.css",
+            "url": "https://animate.style/",
+            "description": "Animate.css is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools"
+            ]
+        },
+        {
+            "id": "d2e8aefe-7bf6-40b0-80fd-a031471a4a60",
+            "name": "Heroicons",
+            "url": "https://heroicons.com/",
+            "description": "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
+            "tags": [
+                "icons",
+                "design",
+                "frontend",
+                "css",
+                "svg"
+            ]
+        },
+        {
+            "id": "aa664ff0-b6c8-46bb-99cb-21866bae3333",
+            "name": "Tremor",
+            "url": "https://www.tremor.so/",
+            "description": "The React library to build dashboards fast.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools",
+                "react"
+            ]
+        },
+        {
+            "id": "d829c90e-d8e1-42de-8b6c-c5c4b78edbc4",
+            "name": "Can I Use",
+            "url": "https://caniuse.com/",
+            "description": "\"Can I use\" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools",
+                "javascript",
+                "browser"
+            ]
+        },
+        {
+            "name": "Slick Carousel",
+            "url": "https://kenwheeler.github.io/slick/",
+            "description": "The last carousel you'll ever need.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools",
+                "javascript",
+                "carousels"
+            ]
+        },
+        {
+            "id": "74c58bb3-f1ae-4ae1-8df0-37bdaf33b708",
+            "name": "Next UI",
+            "url": "https://nextui.org/",
+            "description": "Make beautiful websites regardless of your design experience.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools",
+                "javascript",
+                "react"
+            ]
+        },
+        {
+            "id": "5f36e774-7e41-4ffb-9853-90cd6544649f",
+            "name": "Tailwind CSS Cheat Sheet",
+            "url": "https://tailwindcomponents.com/cheatsheet/",
+            "description": "A cheat sheet for Tailwind CSS, a utility-first CSS framework for rapidly building custom designs.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools",
+                "javascript",
+                "tailwind"
+            ]
+        },
+        {
+            "id": "0ea3718f-995b-4be5-a1f8-5bdf06101575",
+            "name": "CSS Selectors/Combinators Classifier",
+            "url": "https://selectors.info/",
+            "description": "A tool to classify CSS selectors/combinators into classes.",
+            "tags": [
+                "frontend",
+                "css",
+                "html",
+                "design",
+                "tools",
+                "javascript"
+            ]
+        },
+        {
+            "name": "For Developers - CodeSignal",
+            "url": "https://codesignal.com/developers/",
+            "description": "Practice for technical interviews, get acquainted with the CodeSignal platform, and build your developer resume.",
+            "tags": [
+                "tools",
+                "javascript",
+                "interviews",
+                "skills"
+            ]
+        },
+        {
+            "name": "Replit: The collaborative browser based IDE",
+            "url": "https://replit.com/",
+            "description": "Replit is a simple yet powerful online IDE, Editor, Compiler, Interpreter, and REPL. Code, compile, run, and host in 50+ programming languages.",
+            "tags": [
+                "tools",
+                "javascript",
+                "ide",
+                "editor",
+                "compiler",
+                "interpreter",
+                "repl"
+            ]
         }
-    ],
-    "tagsColor": {
-        "html": "#e34c26",
-        "css": "#563d7c",
-        "javascript": "#f1e05a",
-        "json": "#292929",
-        "svg": "#ff9900",
-        "google": "#4285f4",
-        "png": "#ee0000",
-        "design": "#ff4081",
-        "styleguide": "#ff4081",
-        "freecodecamp": "#0a0a23",
-        "frontend": "#0a0a23",
-        "backend": "#0a0a23",
-        "tools": "#0a0a23",
-        "icons": "#0a0a23"
-    }
+    ]
 }

@@ -14,7 +14,7 @@ export default function Table() {
     return (
         <div className="flex flex-col gap-2 ">
             {
-                data.map((item, index) => {
+                data.sort((a, b) => a.name.localeCompare(b.name)).map((item, index) => {
                     return <Card key={index} {...item} />;
                 })
             }
