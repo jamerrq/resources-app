@@ -37,7 +37,6 @@
                 "icons",
                 "design",
                 "frontend",
-                "css",
                 "svg",
                 "google",
                 "png"
@@ -52,8 +51,7 @@
                 "frontend",
                 "css",
                 "html",
-                "design",
-                "tools"
+                "design"
             ]
         },
         {
@@ -65,8 +63,7 @@
                 "frontend",
                 "css",
                 "html",
-                "design",
-                "tools"
+                "design"
             ]
         },
         {
@@ -118,8 +115,7 @@
                 "frontend",
                 "css",
                 "html",
-                "design",
-                "tools"
+                "design"
             ]
         },
         {
@@ -144,8 +140,7 @@
                 "frontend",
                 "css",
                 "html",
-                "design",
-                "tools"
+                "design"
             ]
         },
         {
@@ -157,8 +152,7 @@
                 "frontend",
                 "css",
                 "html",
-                "design",
-                "tools"
+                "design"
             ]
         },
         {
@@ -184,7 +178,6 @@
                 "css",
                 "html",
                 "design",
-                "tools",
                 "react"
             ]
         },
@@ -198,7 +191,6 @@
                 "css",
                 "html",
                 "design",
-                "tools",
                 "javascript",
                 "browser"
             ]
@@ -212,7 +204,6 @@
                 "css",
                 "html",
                 "design",
-                "tools",
                 "javascript",
                 "carousels"
             ]
@@ -227,7 +218,6 @@
                 "css",
                 "html",
                 "design",
-                "tools",
                 "javascript",
                 "react"
             ]
@@ -242,7 +232,6 @@
                 "css",
                 "html",
                 "design",
-                "tools",
                 "javascript",
                 "tailwind"
             ]
@@ -266,7 +255,6 @@
             "url": "https://codesignal.com/developers/",
             "description": "Practice for technical interviews, get acquainted with the CodeSignal platform, and build your developer resume.",
             "tags": [
-                "tools",
                 "javascript",
                 "interviews",
                 "skills"
@@ -284,6 +272,149 @@
                 "compiler",
                 "interpreter",
                 "repl"
+            ]
+        },
+        {
+            "name": "Squoosh",
+            "url": "https://squoosh.app/",
+            "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
+            "tags": [
+                "tools",
+                "images",
+                "browser"
+            ]
+        },
+        {
+            "name": "Dribbble - Discover the World's Top Designers",
+            "url": "https://dribbble.com/shots",
+            "description": "Millions of designers and agencies around the world showcase their portfolio work on Dribbble - the home to the world's best design and creative professionals.",
+            "tags": [
+                "design",
+                "frontend"
+            ]
+        },
+        {
+            "name": "PublicAPI - A Directory of Free Public & Open Rest APIs",
+            "url": "https://publicapi.dev/",
+            "description": "A collective list of free APIs for use in software and web development.",
+            "tags": [
+                "api",
+                "backend"
+            ]
+        },
+        {
+            "name": "Codecademy - Learn to Code",
+            "url": "https://www.codecademy.com/",
+            "description": "Learn the technical skills you need for the job you want. As leaders in online education and learning to code, we've taught over 50 million people using a tested curriculum and an interactive learning environment. Start with HTML, CSS, JavaScript, SQL, Python, Data Science, and more.",
+            "tags": [
+                "javascript",
+                "css",
+                "html",
+                "python",
+                "sql"
+            ]
+        },
+        {
+            "name": "React Testing Library",
+            "url": "https://testing-library.com/docs/react-testing-library/intro/",
+            "description": "Simple and complete React DOM testing utilities that encourage good testing practices.",
+            "tags": [
+                "javascript",
+                "react",
+                "testing"
+            ]
+        },
+        {
+            "name": "JavaScript Advanced Questions",
+            "url": "https://github.com/lydiahallie/javascript-questions/blob/master/README.md",
+            "description": "From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview!.",
+            "tags": [
+                "javascript",
+                "interviews",
+                "skills"
+            ]
+        },
+        {
+            "name": "Full Stack Developer Roadmap",
+            "url": "https://roadmap.sh/full-stack",
+            "description": "Step by step guide to becoming a modern full stack developer in 2023.",
+            "tags": [
+                "javascript",
+                "backend",
+                "frontend",
+                "skills"
+            ]
+        },
+        {
+            "name": "Embla Carousel",
+            "url": "https://www.embla-carousel.com/examples/predefined/",
+            "description": "Embla Carousel is a bare bones carousel library with great fluid motion and excellent browser support.",
+            "tags": [
+                "javascript",
+                "carousels"
+            ]
+        },
+        {
+            "name": "Frontend Practice",
+            "url": "https://www.frontendpractice.com/",
+            "description": "Take your frontend skills to the next level by recreating real websites from real companies. The perfect type of practice for developers of all skill levels.",
+            "tags": [
+                "javascript",
+                "frontend",
+                "skills"
+            ]
+        },
+        {
+            "name": "Frontend Mentor",
+            "url": "https://www.frontendmentor.io/",
+            "description": "Improve your front-end coding skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.",
+            "tags": [
+                "javascript",
+                "frontend",
+                "skills"
+            ]
+        },
+        {
+            "name": "DevChallenges.io",
+            "url": "https://devchallenges.io/",
+            "description": "Become a better developer by building real projects. Solve real-world problems while working on professional designs alongside the best community.",
+            "tags": [
+                "javascript",
+                "skills"
+            ]
+        },
+        {
+            "name": "Codewell",
+            "url": "https://www.codewell.cc/",
+            "description": "With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.",
+            "tags": [
+                "javascript",
+                "skills",
+                "html",
+                "css",
+                "figma",
+                "frontend"
+            ]
+        },
+        {
+            "name": "SVG Repo - Free SVG Vectors and Icons",
+            "url": "https://www.svgrepo.com/",
+            "description": "Search, explore and edit the best-fitting free icons or vectors for your projects using a wide variety vector library.",
+            "tags": [
+                "javascript",
+                "icons",
+                "svg",
+                "frontend"
+            ]
+        },
+        {
+            "name": "Pruebas Técnicas de Programación",
+            "url": "https://pruebastecnicas.com/",
+            "description": "Practica tus habilidades de programación con pruebas técnicas de empresas reales. Usa el stack que prefieras, entrega tus ejercicios y recibe el feedback de la comunidad.",
+            "tags": [
+                "javascript",
+                "interviews",
+                "skills"
             ]
         }
     ]

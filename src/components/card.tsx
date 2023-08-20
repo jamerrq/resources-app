@@ -1,4 +1,4 @@
-import { Item, Tag } from "./table";
+import type { Item } from "./table";
 
 const tagsColor: { [key: string]: string; } = {
     "html": "#e34c26",
@@ -11,7 +11,7 @@ const tagsColor: { [key: string]: string; } = {
     "design": "#ff4081",
     "styleguide": "#ff4081",
     "freecodecamp": "#0a0a23",
-    "frontend": "#0a0a23",
+    "frontend": "#279EFF",
     "backend": "#0a0a23",
     "tools": "#0a0a23",
     "icons": "#0a0a23",
@@ -21,13 +21,19 @@ const tagsColor: { [key: string]: string; } = {
     "browser": "#0a0a23",
     "carousels": "#ff4081",
     "tailwind": "#06b6d4",
-    "interviews": "#0a0a23",
-    "skills": "#0a0a23",
-    "compiler": "#0a0a23",
-    "editor": "#0a0a23",
-    "ide": "#0a0a23",
-    "interpreter": "#0a0a23",
-    "repl": "#0a0a23",
+    "interviews": "#A8DF8E",
+    "skills": "#5B9A8B",
+    "compiler": "#79155B",
+    "editor": "#614BC3",
+    "ide": "#FFF3DA",
+    "interpreter": "#33BBC5",
+    "repl": "#96B6C5",
+    "images": "#C70039",
+    "python": "#FFC300",
+    "sql": "#FF5733",
+    "figma": "#F24E1E",
+    "api": "#FFC300",
+    "testing": "#C8E4B2",
 };
 
 const tagsTextColor: { [key: string]: string; } = {
@@ -35,6 +41,14 @@ const tagsTextColor: { [key: string]: string; } = {
     'google': '#000',
     'react': '#000',
     'tailwind': '#000',
+    'interviews': '#000',
+    'ide': '#000',
+    'interpreter': '#000',
+    'repl': '#000',
+    'skills': '#000',
+    'frontend': '#000',
+    'api': '#000',
+    'testing': '#000',
 };
 
 export default function Card(item: Item, index: string) {

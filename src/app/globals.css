@@ -22,4 +22,10 @@ body {
             transparent,
             rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
     background: #B9B4C7;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
