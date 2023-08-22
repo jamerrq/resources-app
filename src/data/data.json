@@ -196,6 +196,7 @@
             ]
         },
         {
+            "id": "c4ec3569-6a49-4da5-990f-62c44dca02ba",
             "name": "Slick Carousel",
             "url": "https://kenwheeler.github.io/slick/",
             "description": "The last carousel you'll ever need.",
@@ -251,6 +252,7 @@
             ]
         },
         {
+            "id": "23558808-4736-4589-a4f3-4b502bc1cbd9",
             "name": "For Developers - CodeSignal",
             "url": "https://codesignal.com/developers/",
             "description": "Practice for technical interviews, get acquainted with the CodeSignal platform, and build your developer resume.",
@@ -261,6 +263,7 @@
             ]
         },
         {
+            "id": "983a1c23-73ce-4d6e-af07-87d610757409",
             "name": "Replit: The collaborative browser based IDE",
             "url": "https://replit.com/",
             "description": "Replit is a simple yet powerful online IDE, Editor, Compiler, Interpreter, and REPL. Code, compile, run, and host in 50+ programming languages.",
@@ -275,6 +278,7 @@
             ]
         },
         {
+            "id": "eeb14ebe-f55b-41f9-9c1d-e4ac8fb0e9b4",
             "name": "Squoosh",
             "url": "https://squoosh.app/",
             "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
@@ -285,6 +289,7 @@
             ]
         },
         {
+            "id": "f3dc635b-239e-474e-a4b7-605e2efac3d9",
             "name": "Dribbble - Discover the World's Top Designers",
             "url": "https://dribbble.com/shots",
             "description": "Millions of designers and agencies around the world showcase their portfolio work on Dribbble - the home to the world's best design and creative professionals.",
@@ -294,6 +299,7 @@
             ]
         },
         {
+            "id": "917cf5af-ed07-4ae6-87d9-237a40348902",
             "name": "PublicAPI - A Directory of Free Public & Open Rest APIs",
             "url": "https://publicapi.dev/",
             "description": "A collective list of free APIs for use in software and web development.",
@@ -303,6 +309,7 @@
             ]
         },
         {
+            "id": "ed638a48-3009-4499-96ab-85f3c5d78458",
             "name": "Codecademy - Learn to Code",
             "url": "https://www.codecademy.com/",
             "description": "Learn the technical skills you need for the job you want. As leaders in online education and learning to code, we've taught over 50 million people using a tested curriculum and an interactive learning environment. Start with HTML, CSS, JavaScript, SQL, Python, Data Science, and more.",
@@ -315,6 +322,7 @@
             ]
         },
         {
+            "id": "a3dee1a2-0d65-4e62-8a18-6f3bd965a341",
             "name": "React Testing Library",
             "url": "https://testing-library.com/docs/react-testing-library/intro/",
             "description": "Simple and complete React DOM testing utilities that encourage good testing practices.",
@@ -325,6 +333,7 @@
             ]
         },
         {
+            "id": "1fa50017-a145-49f7-840a-017479bbc226",
             "name": "JavaScript Advanced Questions",
             "url": "https://github.com/lydiahallie/javascript-questions/blob/master/README.md",
             "description": "From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview!.",
@@ -335,6 +344,7 @@
             ]
         },
         {
+            "id": "9c25cbd6-5700-4271-91d8-546faa356a54",
             "name": "Full Stack Developer Roadmap",
             "url": "https://roadmap.sh/full-stack",
             "description": "Step by step guide to becoming a modern full stack developer in 2023.",
@@ -346,6 +356,7 @@
             ]
         },
         {
+            "id": "e466ca41-6c7f-462f-80ee-d96f57c03d43",
             "name": "Embla Carousel",
             "url": "https://www.embla-carousel.com/examples/predefined/",
             "description": "Embla Carousel is a bare bones carousel library with great fluid motion and excellent browser support.",
@@ -355,6 +366,7 @@
             ]
         },
         {
+            "id": "6ab929ff-75d8-4187-b9d5-1b5c640bf994",
             "name": "Frontend Practice",
             "url": "https://www.frontendpractice.com/",
             "description": "Take your frontend skills to the next level by recreating real websites from real companies. The perfect type of practice for developers of all skill levels.",
@@ -365,6 +377,7 @@
             ]
         },
         {
+            "id": "715df456-8fc7-4d22-bab0-5fd1367931ee",
             "name": "Frontend Mentor",
             "url": "https://www.frontendmentor.io/",
             "description": "Improve your front-end coding skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.",
@@ -375,6 +388,7 @@
             ]
         },
         {
+            "id": "03d0f230-9b20-4aa0-8f17-b14df893f35c",
             "name": "DevChallenges.io",
             "url": "https://devchallenges.io/",
             "description": "Become a better developer by building real projects. Solve real-world problems while working on professional designs alongside the best community.",
@@ -384,6 +398,7 @@
             ]
         },
         {
+            "id": "45d22782-0303-4d45-b618-c8841f5501dd",
             "name": "Codewell",
             "url": "https://www.codewell.cc/",
             "description": "With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.",
@@ -397,6 +412,7 @@
             ]
         },
         {
+            "id": "9c92511d-07bf-4837-a359-d037f6eaa5d1",
             "name": "SVG Repo - Free SVG Vectors and Icons",
             "url": "https://www.svgrepo.com/",
             "description": "Search, explore and edit the best-fitting free icons or vectors for your projects using a wide variety vector library.",
@@ -408,6 +424,7 @@
             ]
         },
         {
+            "id": "dc6c0d5c-06ee-4f56-841c-ef466762940e",
             "name": "Pruebas Técnicas de Programación",
             "url": "https://pruebastecnicas.com/",
             "description": "Practica tus habilidades de programación con pruebas técnicas de empresas reales. Usa el stack que prefieras, entrega tus ejercicios y recibe el feedback de la comunidad.",
