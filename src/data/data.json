@@ -247,8 +247,7 @@
                 "css",
                 "html",
                 "design",
-                "tools",
-                "javascript"
+                "tools"
             ]
         },
         {
@@ -468,6 +467,179 @@
                 "css",
                 "frontend",
                 "tools"
+            ]
+        },
+        {
+            "id": "c4a90763-8341-400c-8c0c-ba79d5145332",
+            "name": "OverAPI.com",
+            "url": "https://overapi.com/",
+            "description": "Collecting all the cheat sheets.",
+            "tags": [
+                "javascript",
+                "css",
+                "html",
+                "frontend",
+                "tools"
+            ]
+        },
+        {
+            "id": "2950065d-b858-436e-83e2-00bf9e730b81",
+            "name": "Konsta UI",
+            "url": "https://konstaui.com/",
+            "description": "Pixel perfect mobile UI components built with Tailwind CSS. Compatible with React, Vue, and Svelte.",
+            "tags": [
+                "css",
+                "frontend",
+                "tailwind",
+                "react",
+                "vue",
+                "svelte"
+            ]
+        },
+        {
+            "id": "8ba5110c-c3ea-45ca-9eda-a27d6947f2f7",
+            "name": "FL0 - backend engineering, supercharged",
+            "url": "https://www.fl0.com/",
+            "description": "Deploy backend applications and databases in minutes.",
+            "tags": [
+                "backend",
+                "tools",
+                "database",
+                "server",
+                "deployment"
+            ]
+        },
+        {
+            "id": "99aa96a4-dd59-4669-a174-bf6c1f30562c",
+            "name": "Render: Cloud Application Hosting for Developers",
+            "url": "https://render.com/",
+            "description": "Render is a unified platform to build and run all your apps and websites with free SSL, global CDN, private networks and auto deploys from Git.",
+            "tags": [
+                "backend",
+                "tools",
+                "server",
+                "deployment"
+            ]
+        },
+        {
+            "id": "1c2ff713-a143-4b03-bdf6-f16f1c6aeb6f",
+            "name": "Fly.io: Deploy App Servers Close to Your Users",
+            "url": "https://fly.io/",
+            "description": "Fly is a platform for applications that need to run globally. Deploy your apps close to your users and scale deploys between 25 and 1000 VMs.",
+            "tags": [
+                "backend",
+                "tools",
+                "server",
+                "deployment"
+            ]
+        },
+        {
+            "id": "40356922-449f-41d6-81a9-1780befb1810",
+            "name": "Koyeb: Push code to production, everywhere, in minutes",
+            "url": "https://www.koyeb.com/",
+            "description": "Koyeb is a developer-friendly serverless platform to deploy apps globally. No-ops, servers, and infrastructure management.",
+            "tags": [
+                "backend",
+                "tools",
+                "server",
+                "deployment"
+            ]
+        },
+        {
+            "id": "7dc774e0-38ba-49cc-b02c-ab97aa232d04",
+            "name": "Qoddi.com - Premium Cloud App Hosting Platform",
+            "url": "https://qoddi.com/",
+            "description": "Get rid of AWS and Kubernetes: Qoddi is a fully managed App Hosting Platform running on a tier 1 network at 10% of the cost of similar solutions.",
+            "tags": [
+                "backend",
+                "tools",
+                "server",
+                "deployment"
+            ]
+        },
+        {
+            "id": "e3018573-4d52-4b66-b60f-b5d39208131f",
+            "name": "Netlify: Develop and deploy websites and apps in record time",
+            "url": "https://www.netlify.com/",
+            "description": "Netlify is the modern web development platform for Enterprises to realize the full potential of a scalable, customizable web architecture.",
+            "tags": [
+                "backend",
+                "tools",
+                "server",
+                "deployment"
+            ]
+        },
+        {
+            "id": "f61e7029-7e1c-406a-9911-2366401a239c",
+            "name": "Vercel: Develop. Preview. Ship. For the best frontend teams",
+            "url": "https://vercel.com/",
+            "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+            "tags": [
+                "frontend",
+                "tools",
+                "deployment",
+                "server"
+            ]
+        },
+        {
+            "id": "36418062-c6c5-4c73-b1b6-b63f195ddf3c",
+            "name": "Refine",
+            "url": "https://refine.dev/",
+            "description": "Refine is an open-source React framework. Build your React-based CRUD applications without difficulties. Build React-based internal tool, admin panel, or any type of CRUD application, with full customization.",
+            "tags": [
+                "frontend",
+                "tools",
+                "react",
+                "crud"
+            ]
+        },
+        {
+            "id": "61291549-755c-4193-a0cc-40659c97563a",
+            "name": "Clean Code TypeScript",
+            "url": "https://labs42io.github.io/clean-code-typescript/",
+            "description": "Clean Code concepts adapted for TypeScript.",
+            "tags": [
+                "typescript",
+                "javascript",
+                "skills",
+                "frontend",
+                "backend",
+                "blog"
+            ]
+        },
+        {
+            "id": "9e7b827f-6d1b-496d-ac62-02af36b328c6",
+            "name": "AI Commits",
+            "url": "https://www.npmjs.com/package/aicommits",
+            "description": "A CLI that writes your git commit messages for you with AI.",
+            "tags": [
+                "tools",
+                "ai",
+                "git"
+            ]
+        },
+        {
+            "id": "41a049f3-1a83-4d09-9234-6da3a68c9e07",
+            "name": "Every Programmer Should Know",
+            "description": "A collection of (mostly) technical things every software developer should know about.",
+            "url": "https://github.com/mtdvio/every-programmer-should-know",
+            "tags": [
+                "skills",
+                "frontend",
+                "backend",
+                "blog"
+            ]
+        },
+        {
+            "id": "e78a728f-1b78-4367-bae6-fa9edcd86836",
+            "url": "https://github.com/AllThingsSmitty/css-protips",
+            "name": "CSS Protips",
+            "description": "A collection of tips to help take your CSS skills pro.",
+            "tags": [
+                "css",
+                "frontend",
+                "skills",
+                "blog"
             ]
         }
     ]
