@@ -1,50 +1,14 @@
-export const tagsColor: Record<string, string> = {
-  html: '#e34c26',
-  css: '#563d7c',
-  javascript: '#f1e05a',
-  json: '#292929',
-  svg: '#ff9900',
-  google: '#4285f4',
-  png: '#ee0000',
-  design: '#ff4081',
-  styleguide: '#ff4081',
-  freecodecamp: '#0a0a23',
-  frontend: '#279EFF',
-  backend: '#0a0a23',
-  tools: '#0a0a23',
-  icons: '#0a0a23',
-  react: '#61dafb',
-  node: '#68a063',
-  fonts: '#0a0a23',
-  browser: '#0a0a23',
-  carousels: '#ff4081',
-  tailwind: '#06b6d4',
-  interviews: '#A8DF8E',
-  skills: '#5B9A8B',
-  compiler: '#79155B',
-  editor: '#614BC3',
-  ide: '#FFF3DA',
-  interpreter: '#33BBC5',
-  repl: '#96B6C5',
-  images: '#C70039',
-  python: '#FFC300',
-  sql: '#FF5733',
-  figma: '#F24E1E',
-  api: '#FFC300',
-  testing: '#C8E4B2'
-}
+import seedrandom from 'seedrandom'
 
-export const tagsTextColor: Record<string, string> = {
-  javascript: '#000000',
-  google: '#000',
-  react: '#000',
-  tailwind: '#000',
-  interviews: '#000',
-  ide: '#000',
-  interpreter: '#000',
-  repl: '#000',
-  skills: '#000',
-  frontend: '#000',
-  api: '#000',
-  testing: '#000'
+export function generateRandomColorFromText (tagText: string): string {
+  const rng = seedrandom(tagText)
+  const r = Math.floor(rng() * 255)
+  const g = Math.floor(rng() * 255)
+  const b = Math.floor(rng() * 255)
+  // Now let's create a color string with enough contrast
+  // against white
+  if (r + g + b > 300) {
+    return `rgb(${r - 100},${g - 100},${b - 100})`
+  }
+  return `rgb(${r},${g},${b})`
 }

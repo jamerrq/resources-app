@@ -433,6 +433,42 @@
                 "interviews",
                 "skills"
             ]
+        },
+        {
+            "id": "63bd91d5-3d60-4fc8-a493-db24a870b524",
+            "name": "JavaScript Questions Blog",
+            "url": "https://iq.js.org/",
+            "description": "JavaScript Questions Blog is a collection of questions and posts can help you improve your JavaScript and Frontend development knowledge.",
+            "tags": [
+                "javascript",
+                "skills",
+                "frontend",
+                "blog",
+                "react",
+                "typescript",
+                "angular"
+            ]
+        },
+        {
+            "id": "7870a20f-0f13-40cf-a343-05cd5b995d25",
+            "url": "https://fffuel.co/css-selectors/",
+            "name": "CSS Selectors: A Visual Guide",
+            "description": "A visual guide to CSS selectors.",
+            "tags": [
+                "css",
+                "frontend"
+            ]
+        },
+        {
+            "id": "a16471f5-d813-49d6-aa03-be717bef61bb",
+            "name": "Glassmorphism CSS Generator",
+            "url": "https://ui.glass/generator/",
+            "description": "Get started with this free CSS generator based on the glassmorphism design specifications to quickly design and customize the style properties.",
+            "tags": [
+                "css",
+                "frontend",
+                "tools"
+            ]
         }
     ]
 }
