@@ -4,6 +4,7 @@ import { type Item } from '../types'
 import data from '../data/data.json'
 import Card from './card'
 import { useMemo, useState } from 'react'
+import { IconEye, IconEyeOff } from '@tabler/icons-react'
 
 const rawData: Item[] = data.data
 const allTags = new Set(rawData.reduce((acc: string[], val) =>
@@ -12,6 +13,7 @@ const allTags = new Set(rawData.reduce((acc: string[], val) =>
 export default function Table (): JSX.Element {
   const [search, setSearch] = useState<string | null>(null)
   const [tags, setTags] = useState<Set<string>>(new Set())
+  const [showTags, setShowTags] = useState<boolean>(false)
 
   const handleSearch = (e: React.FormEvent<HTMLInputElement>): void => {
     setSearch(e.currentTarget.value)
@@ -47,13 +49,18 @@ export default function Table (): JSX.Element {
     return filteredData.sort((a, b) => a.name.localeCompare(b.name))
   }, [filteredData])
 
+  const customIcon = showTags ? <IconEyeOff style={{ display: 'inline-block' }} size={18} /> : <IconEye style={{ display: 'inline-block' }} size={18} />
+
   return (
     <div className="flex flex-col gap-2 min-w-full">
       <div className="flex gap-2 text-sm px-2 flex-col">
-        <input type="text" className='self-center rounded text-center py-1 w-80'
-          placeholder='search...' onChange={handleSearch} />
-        <div className="grid grid-cols-4 self-center">
-          {
+        <div className="flex flex-row gap-2 justify-around">
+          <input type="text" className='self-center rounded text-center py-1 w-80'
+            placeholder='search...' onChange={handleSearch} />
+          <button className="text-xs bg-blue-400 py-1 px-2 rounded border-2 border-black select-none" onClick={() => { setShowTags(state => !state) }}>{customIcon} tags</button>
+        </div>
+        <div className="grid grid-cols-4 self-center overflow-hidden transition-all">
+          {showTags && (
             Array.from(allTags).sort().map((tag, index) => {
               return (
                 <label key={index} className="flex items-center gap-1 mr-1">
@@ -61,7 +68,7 @@ export default function Table (): JSX.Element {
                   {tag}
                 </label>
               )
-            })
+            }))
           }
         </div>
       </div>
