@@ -35,6 +35,7 @@ export default function CustomModal (): JSX.Element {
             margin: 'auto' // Centra el modal horizontalmente
           }
         }}
+        ariaHideApp={false}
       >
         <div className='flex flex-col items-center select-none w-fit'>
           <h2 id="modal-modal-title" className="text-2xl font-bold text-[#352F44]">

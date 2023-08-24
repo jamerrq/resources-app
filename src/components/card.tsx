@@ -1,4 +1,4 @@
-import { tagsColor, tagsTextColor, generateRandomColorFromText } from '../data/colors'
+import { generateRandomColorFromText } from '../data/colors'
 import type { Item } from '../types'
 
 export default function Card (item: Item, index: string): JSX.Element {
@@ -19,7 +19,7 @@ export default function Card (item: Item, index: string): JSX.Element {
               <span key={index} style={{
                 // backgroundColor: tagsColor[tag] ?? '#000',
                 backgroundColor: generateRandomColorFromText(tag),
-                color: "white"
+                color: 'white'
               }} className="text-white font-bold p-1.5 text-xs rounded-xl border-2 border-black shadow-sm shadow-black">
                 {tag}
               </span>

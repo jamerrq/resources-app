@@ -1,10 +1,12 @@
 'use client'
 
-import { data } from '../data/data.json'
+import { type Item } from '../types'
+import data from '../data/data.json'
 import Card from './card'
 import { useMemo, useState } from 'react'
 
-const allTags = new Set(data.reduce((acc: string[], val) =>
+const rawData: Item[] = data.data
+const allTags = new Set(rawData.reduce((acc: string[], val) =>
   acc.concat(val.tags), []))
 
 export default function Table (): JSX.Element {
@@ -30,7 +32,7 @@ export default function Table (): JSX.Element {
 
   const filteredData = useMemo(() => {
     // if (!search) return data;
-    return data.filter((item) => {
+    return rawData.filter((item) => {
       // Filter by tags
       if (tags.size > 0) {
         if (!item.tags.some((tag) => tags.has(tag))) return false
