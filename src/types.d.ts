@@ -1,11 +1,3 @@
-// export interface Item {
-//   id: string
-//   name: string
-//   tags: string[]
-//   url: string
-//   description: string
-// }
-
 export interface Item {
   id: string
   name: string
@@ -13,3 +5,7 @@ export interface Item {
   description: string
   tags: (string)[]
 }
+
+export type HEX = `#${string}`
+
+export type RGB = [number, number, number]

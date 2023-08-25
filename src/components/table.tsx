@@ -1,10 +1,11 @@
 'use client'
 
-import { type Item } from '../types'
-import data from '../data/data.json'
+import { type Item } from '@/types'
+import data from '@/data/data.json'
 import Card from './card'
 import { useMemo, useState } from 'react'
 import { IconEye, IconEyeOff } from '@tabler/icons-react'
+import { giveMeTheColors } from '@/data/colors'
 
 const rawData: Item[] = data.data
 const allTags = new Set(rawData.reduce((acc: string[], val) =>
@@ -49,15 +50,23 @@ export default function Table (): JSX.Element {
     return filteredData.sort((a, b) => a.name.localeCompare(b.name))
   }, [filteredData])
 
-  const customIcon = showTags ? <IconEyeOff style={{ display: 'inline-block' }} size={18} /> : <IconEye style={{ display: 'inline-block' }} size={18} />
+  const customIcon = showTags
+    ? <IconEyeOff stroke={2.5} style={{ display: 'inline-block' }}
+      size={18} />
+    : <IconEye stroke={2.5} style={{ display: 'inline-block' }} size={18} />
+
+  const [tagsButtonColor, tagsButtonTextColor] = giveMeTheColors('tags')
 
   return (
     <div className="flex flex-col gap-2 min-w-full">
       <div className="flex gap-2 text-sm px-2 flex-col">
-        <div className="flex flex-row gap-2 justify-around">
-          <input type="text" className='self-center rounded text-center py-1 w-80'
+        <div className="flex flex-row gap-2 justify-around max-w-lg self-center">
+          <input type="text" className='self-center rounded text-center py-1 w-80 border-2 border-slate'
             placeholder='search...' onChange={handleSearch} />
-          <button className="text-xs bg-blue-400 py-1 px-2 rounded border-2 border-black select-none" onClick={() => { setShowTags(state => !state) }}>{customIcon} tags</button>
+          <button className="py-1 px-2 rounded border-2 border-black select-none font-bold"
+            onClick={() => { setShowTags(state => !state) }}
+            style={{ backgroundColor: tagsButtonColor, color: tagsButtonTextColor }}
+          >{customIcon} TAGS</button>
         </div>
         <div className="grid grid-cols-4 self-center overflow-hidden transition-all">
           {showTags && (

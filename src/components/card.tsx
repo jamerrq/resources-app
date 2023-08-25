@@ -1,4 +1,4 @@
-import { generateRandomColorFromText } from '../data/colors'
+import { giveMeTheColors } from '../data/colors'
 import type { Item } from '../types'
 
 export default function Card (item: Item, index: string): JSX.Element {
@@ -15,11 +15,12 @@ export default function Card (item: Item, index: string): JSX.Element {
       <div className="flex gap-1">
         {
           item.tags?.sort().map((tag, index) => {
+            const [color, textColor] = giveMeTheColors(tag)
             return (
               <span key={index} style={{
                 // backgroundColor: tagsColor[tag] ?? '#000',
-                backgroundColor: generateRandomColorFromText(tag),
-                color: 'white'
+                backgroundColor: color,
+                color: textColor
               }} className="text-white font-bold p-1.5 text-xs rounded-xl border-2 border-black shadow-sm shadow-black">
                 {tag}
               </span>
