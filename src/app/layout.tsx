@@ -1,7 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Fira_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/react'
 
 // const inter = Inter({ subsets: ['latin'] });
 // const fira_code = Fira_Code({ subsets: ['latin'] });
@@ -22,10 +21,7 @@ export default function RootLayout ({
 }): JSX.Element {
   return (
     <html lang="en">
-      <body className={firaMono.className}>
-        {children}
-        <Analytics />
-      </body>
+      <body className={firaMono.className}>{children}</body>
     </html>
   )
 }
