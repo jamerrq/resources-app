@@ -12,7 +12,7 @@ export default function Card (item: Item, index: string): JSX.Element {
       <br />
       <p>{item.description}</p>
       <br />
-      <div className="flex gap-1">
+      <div className="flex gap-1 flex-wrap">
         {
           item.tags?.sort().map((tag, index) => {
             const [color, textColor] = giveMeTheColors(tag)

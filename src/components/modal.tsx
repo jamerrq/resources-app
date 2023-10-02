@@ -48,10 +48,10 @@ export default function CustomModal (): JSX.Element {
       >
         <div className='flex flex-col items-center select-none w-fit'>
           <h2 id="modal-modal-title" className="text-2xl font-bold text-[#352F44]">
-            {'<'}Web Full Stack Resources{'/>'}
+            {'<'}Web Full Stack Resources{' />'}
           </h2>
           <br />
-          <span className="text-sm">
+          <span className="text-sm text-center">
             This is a collection of resources for web full stack development.
             It is a work in progress, so feel free to <a
               href="https://github.com/jamerrq/resources-app"

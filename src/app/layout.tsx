@@ -1,13 +1,8 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Fira_Mono } from 'next/font/google'
+import localFont from 'next/font/local'
 
-// const inter = Inter({ subsets: ['latin'] });
-// const fira_code = Fira_Code({ subsets: ['latin'] });
-const firaMono = Fira_Mono({
-  weight: ['400', '700'],
-  subsets: ['latin']
-})
+const firaMono = localFont({ src: '../../public/fonts/Fira_Mono/FiraMono-Bold.ttf' })
 
 export const metadata: Metadata = {
   title: 'Resources App',
@@ -20,8 +15,8 @@ export default function RootLayout ({
   children: React.ReactNode
 }): JSX.Element {
   return (
-    <html lang="en">
-      <body className={firaMono.className}>{children}</body>
-    </html>
+        <html lang="en">
+            <body className={firaMono.className}>{children}</body>
+        </html>
   )
 }

@@ -42,7 +42,8 @@ export default function Table (): JSX.Element {
       }
       // Filter by search
       if (search === null) return true
-      return item.name.toLowerCase().includes(search.toLowerCase())
+      return item.name.toLowerCase().includes(search.toLowerCase()) ||
+                item.description.toLowerCase().includes(search.toLowerCase())
     })
   }, [search, tags])
 

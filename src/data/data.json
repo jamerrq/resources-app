@@ -1,646 +1,924 @@
 {
-    "data": [
-        {
-            "id": "ef136b02-c06e-4db2-89f5-a04be0ef233b",
-            "name": "FreeCodeCamp Style Guide",
-            "url": "https://design-style-guide.freecodecamp.org/",
-            "description": "A living, breathing style guide for the FreeCodeCamp.org web platform.",
-            "tags": [
-                "styleguide",
-                "design",
-                "freecodecamp",
-                "frontend",
-                "css"
-            ]
-        },
-        {
-            "id": "34c978e2-0054-4f8a-bb2b-cc747ed37e8d",
-            "name": "SmallDev.tools",
-            "url": "https://smalldev.tools/",
-            "description": "A collection of small, useful tools for web developers.",
-            "tags": [
-                "tools",
-                "frontend",
-                "backend",
-                "css",
-                "javascript",
-                "html",
-                "json"
-            ]
-        },
-        {
-            "id": "def94062-289b-44cb-8d35-4e30d057fd3b",
-            "name": "Material Symbols and Icons",
-            "url": "https://fonts.google.com/icons",
-            "description": "Material Design icons by Google.",
-            "tags": [
-                "icons",
-                "design",
-                "frontend",
-                "svg",
-                "google",
-                "png"
-            ]
-        },
-        {
-            "id": "25cf90bd-6ba2-492f-bfe6-5cbd4fdffcfa",
-            "name": "HTML Colors, HTML UI Colors, HTML Palette",
-            "url": "https://materialui.co/htmlcolors/",
-            "description": "HTML Colors, HTML UI Colors with HEX, RGB, HSL, Color Names, Color Picker, and color theory.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design"
-            ]
-        },
-        {
-            "id": "e823eee8-1428-4f5a-a876-e65a1cd347af",
-            "name": "Color Hunt - Palettes for Designers and Artists",
-            "url": "https://colorhunt.co/",
-            "description": "Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design"
-            ]
-        },
-        {
-            "id": "e9af5490-27ff-4d7e-a779-77d59ba69b71",
-            "name": "CSS Section Separator Generator",
-            "url": "https://wweb.dev/resources/css-section-separator-generator",
-            "description": "A tool to generate CSS section separators.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design",
-                "tools"
-            ]
-        },
-        {
-            "id": "f6a2cf9f-d48c-490d-a657-602999195fc2",
-            "name": "Blur Background CSS Generator",
-            "url": "https://wweb.dev/resources/blur-background-css-generator",
-            "description": "A tool to generate CSS blur background.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design",
-                "tools"
-            ]
-        },
-        {
-            "id": "e02366c6-578a-417c-b873-9aedf53d3648",
-            "name": "Iconfinder",
-            "url": "https://www.iconfinder.com/",
-            "description": "Millions of graphics for your design projects. Created by independent designers.",
-            "tags": [
-                "icons",
-                "design",
-                "frontend",
-                "css",
-                "svg",
-                "png"
-            ]
-        },
-        {
-            "id": "5c8fdb17-2fbc-4b7d-90c6-6c0cd1c87069",
-            "name": "CSS Reference",
-            "url": "https://cssreference.io/",
-            "description": "A free visual guide to CSS.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design"
-            ]
-        },
-        {
-            "id": "2223ba3d-2d88-45ee-821c-78211d0a7ca5",
-            "name": "Image Color Extract Tool",
-            "url": "https://www.coolphptools.com/color_extract",
-            "description": "Extract colors from an image and generate a color palette for it.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design",
-                "tools"
-            ]
-        },
-        {
-            "id": "21ef3a30-af89-41e3-a22d-197e93e07ef8",
-            "name": "Super Designer",
-            "url": "https://superdesigner.co/",
-            "description": "A collection of free design tools to create unique backgrounds, patterns, shapes, images, and more with just a few clicks",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design"
-            ]
-        },
-        {
-            "id": "3b052b74-e6a3-4088-9ae6-2d2316f72075",
-            "name": "Animate.css",
-            "url": "https://animate.style/",
-            "description": "Animate.css is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design"
-            ]
-        },
-        {
-            "id": "d2e8aefe-7bf6-40b0-80fd-a031471a4a60",
-            "name": "Heroicons",
-            "url": "https://heroicons.com/",
-            "description": "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
-            "tags": [
-                "icons",
-                "design",
-                "frontend",
-                "css",
-                "svg"
-            ]
-        },
-        {
-            "id": "aa664ff0-b6c8-46bb-99cb-21866bae3333",
-            "name": "Tremor",
-            "url": "https://www.tremor.so/",
-            "description": "The React library to build dashboards fast.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design",
-                "react"
-            ]
-        },
-        {
-            "id": "d829c90e-d8e1-42de-8b6c-c5c4b78edbc4",
-            "name": "Can I Use",
-            "url": "https://caniuse.com/",
-            "description": "\"Can I use\" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design",
-                "javascript",
-                "browser"
-            ]
-        },
-        {
-            "id": "c4ec3569-6a49-4da5-990f-62c44dca02ba",
-            "name": "Slick Carousel",
-            "url": "https://kenwheeler.github.io/slick/",
-            "description": "The last carousel you'll ever need.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design",
-                "javascript",
-                "carousels"
-            ]
-        },
-        {
-            "id": "74c58bb3-f1ae-4ae1-8df0-37bdaf33b708",
-            "name": "Next UI",
-            "url": "https://nextui.org/",
-            "description": "Make beautiful websites regardless of your design experience.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design",
-                "javascript",
-                "react"
-            ]
-        },
-        {
-            "id": "5f36e774-7e41-4ffb-9853-90cd6544649f",
-            "name": "Tailwind CSS Cheat Sheet",
-            "url": "https://tailwindcomponents.com/cheatsheet/",
-            "description": "A cheat sheet for Tailwind CSS, a utility-first CSS framework for rapidly building custom designs.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design",
-                "javascript",
-                "tailwind"
-            ]
-        },
-        {
-            "id": "0ea3718f-995b-4be5-a1f8-5bdf06101575",
-            "name": "CSS Selectors/Combinators Classifier",
-            "url": "https://selectors.info/",
-            "description": "A tool to classify CSS selectors/combinators into classes.",
-            "tags": [
-                "frontend",
-                "css",
-                "html",
-                "design",
-                "tools"
-            ]
-        },
-        {
-            "id": "23558808-4736-4589-a4f3-4b502bc1cbd9",
-            "name": "For Developers - CodeSignal",
-            "url": "https://codesignal.com/developers/",
-            "description": "Practice for technical interviews, get acquainted with the CodeSignal platform, and build your developer resume.",
-            "tags": [
-                "javascript",
-                "interviews",
-                "skills"
-            ]
-        },
-        {
-            "id": "983a1c23-73ce-4d6e-af07-87d610757409",
-            "name": "Replit: The collaborative browser based IDE",
-            "url": "https://replit.com/",
-            "description": "Replit is a simple yet powerful online IDE, Editor, Compiler, Interpreter, and REPL. Code, compile, run, and host in 50+ programming languages.",
-            "tags": [
-                "tools",
-                "javascript",
-                "ide",
-                "editor",
-                "compiler",
-                "interpreter",
-                "repl"
-            ]
-        },
-        {
-            "id": "eeb14ebe-f55b-41f9-9c1d-e4ac8fb0e9b4",
-            "name": "Squoosh",
-            "url": "https://squoosh.app/",
-            "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
-            "tags": [
-                "tools",
-                "images",
-                "browser"
-            ]
-        },
-        {
-            "id": "f3dc635b-239e-474e-a4b7-605e2efac3d9",
-            "name": "Dribbble - Discover the World's Top Designers",
-            "url": "https://dribbble.com/shots",
-            "description": "Millions of designers and agencies around the world showcase their portfolio work on Dribbble - the home to the world's best design and creative professionals.",
-            "tags": [
-                "design",
-                "frontend"
-            ]
-        },
-        {
-            "id": "917cf5af-ed07-4ae6-87d9-237a40348902",
-            "name": "PublicAPI - A Directory of Free Public & Open Rest APIs",
-            "url": "https://publicapi.dev/",
-            "description": "A collective list of free APIs for use in software and web development.",
-            "tags": [
-                "api",
-                "backend"
-            ]
-        },
-        {
-            "id": "ed638a48-3009-4499-96ab-85f3c5d78458",
-            "name": "Codecademy - Learn to Code",
-            "url": "https://www.codecademy.com/",
-            "description": "Learn the technical skills you need for the job you want. As leaders in online education and learning to code, we've taught over 50 million people using a tested curriculum and an interactive learning environment. Start with HTML, CSS, JavaScript, SQL, Python, Data Science, and more.",
-            "tags": [
-                "javascript",
-                "css",
-                "html",
-                "python",
-                "sql"
-            ]
-        },
-        {
-            "id": "a3dee1a2-0d65-4e62-8a18-6f3bd965a341",
-            "name": "React Testing Library",
-            "url": "https://testing-library.com/docs/react-testing-library/intro/",
-            "description": "Simple and complete React DOM testing utilities that encourage good testing practices.",
-            "tags": [
-                "javascript",
-                "react",
-                "testing"
-            ]
-        },
-        {
-            "id": "1fa50017-a145-49f7-840a-017479bbc226",
-            "name": "JavaScript Advanced Questions",
-            "url": "https://github.com/lydiahallie/javascript-questions/blob/master/README.md",
-            "description": "From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview!.",
-            "tags": [
-                "javascript",
-                "interviews",
-                "skills"
-            ]
-        },
-        {
-            "id": "9c25cbd6-5700-4271-91d8-546faa356a54",
-            "name": "Full Stack Developer Roadmap",
-            "url": "https://roadmap.sh/full-stack",
-            "description": "Step by step guide to becoming a modern full stack developer in 2023.",
-            "tags": [
-                "javascript",
-                "backend",
-                "frontend",
-                "skills"
-            ]
-        },
-        {
-            "id": "e466ca41-6c7f-462f-80ee-d96f57c03d43",
-            "name": "Embla Carousel",
-            "url": "https://www.embla-carousel.com/examples/predefined/",
-            "description": "Embla Carousel is a bare bones carousel library with great fluid motion and excellent browser support.",
-            "tags": [
-                "javascript",
-                "carousels"
-            ]
-        },
-        {
-            "id": "6ab929ff-75d8-4187-b9d5-1b5c640bf994",
-            "name": "Frontend Practice",
-            "url": "https://www.frontendpractice.com/",
-            "description": "Take your frontend skills to the next level by recreating real websites from real companies. The perfect type of practice for developers of all skill levels.",
-            "tags": [
-                "javascript",
-                "frontend",
-                "skills"
-            ]
-        },
-        {
-            "id": "715df456-8fc7-4d22-bab0-5fd1367931ee",
-            "name": "Frontend Mentor",
-            "url": "https://www.frontendmentor.io/",
-            "description": "Improve your front-end coding skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.",
-            "tags": [
-                "javascript",
-                "frontend",
-                "skills"
-            ]
-        },
-        {
-            "id": "03d0f230-9b20-4aa0-8f17-b14df893f35c",
-            "name": "DevChallenges.io",
-            "url": "https://devchallenges.io/",
-            "description": "Become a better developer by building real projects. Solve real-world problems while working on professional designs alongside the best community.",
-            "tags": [
-                "javascript",
-                "skills"
-            ]
-        },
-        {
-            "id": "45d22782-0303-4d45-b618-c8841f5501dd",
-            "name": "Codewell",
-            "url": "https://www.codewell.cc/",
-            "description": "With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.",
-            "tags": [
-                "javascript",
-                "skills",
-                "html",
-                "css",
-                "figma",
-                "frontend"
-            ]
-        },
-        {
-            "id": "9c92511d-07bf-4837-a359-d037f6eaa5d1",
-            "name": "SVG Repo - Free SVG Vectors and Icons",
-            "url": "https://www.svgrepo.com/",
-            "description": "Search, explore and edit the best-fitting free icons or vectors for your projects using a wide variety vector library.",
-            "tags": [
-                "javascript",
-                "icons",
-                "svg",
-                "frontend"
-            ]
-        },
-        {
-            "id": "dc6c0d5c-06ee-4f56-841c-ef466762940e",
-            "name": "Pruebas Técnicas de Programación",
-            "url": "https://pruebastecnicas.com/",
-            "description": "Practica tus habilidades de programación con pruebas técnicas de empresas reales. Usa el stack que prefieras, entrega tus ejercicios y recibe el feedback de la comunidad.",
-            "tags": [
-                "javascript",
-                "interviews",
-                "skills"
-            ]
-        },
-        {
-            "id": "63bd91d5-3d60-4fc8-a493-db24a870b524",
-            "name": "JavaScript Questions Blog",
-            "url": "https://iq.js.org/",
-            "description": "JavaScript Questions Blog is a collection of questions and posts can help you improve your JavaScript and Frontend development knowledge.",
-            "tags": [
-                "javascript",
-                "skills",
-                "frontend",
-                "blog",
-                "react",
-                "typescript",
-                "angular"
-            ]
-        },
-        {
-            "id": "7870a20f-0f13-40cf-a343-05cd5b995d25",
-            "url": "https://fffuel.co/css-selectors/",
-            "name": "CSS Selectors: A Visual Guide",
-            "description": "A visual guide to CSS selectors.",
-            "tags": [
-                "css",
-                "frontend"
-            ]
-        },
-        {
-            "id": "a16471f5-d813-49d6-aa03-be717bef61bb",
-            "name": "Glassmorphism CSS Generator",
-            "url": "https://ui.glass/generator/",
-            "description": "Get started with this free CSS generator based on the glassmorphism design specifications to quickly design and customize the style properties.",
-            "tags": [
-                "css",
-                "frontend",
-                "tools"
-            ]
-        },
-        {
-            "id": "c4a90763-8341-400c-8c0c-ba79d5145332",
-            "name": "OverAPI.com",
-            "url": "https://overapi.com/",
-            "description": "Collecting all the cheat sheets.",
-            "tags": [
-                "javascript",
-                "css",
-                "html",
-                "frontend",
-                "tools"
-            ]
-        },
-        {
-            "id": "2950065d-b858-436e-83e2-00bf9e730b81",
-            "name": "Konsta UI",
-            "url": "https://konstaui.com/",
-            "description": "Pixel perfect mobile UI components built with Tailwind CSS. Compatible with React, Vue, and Svelte.",
-            "tags": [
-                "css",
-                "frontend",
-                "tailwind",
-                "react",
-                "vue",
-                "svelte"
-            ]
-        },
-        {
-            "id": "8ba5110c-c3ea-45ca-9eda-a27d6947f2f7",
-            "name": "FL0 - backend engineering, supercharged",
-            "url": "https://www.fl0.com/",
-            "description": "Deploy backend applications and databases in minutes.",
-            "tags": [
-                "backend",
-                "tools",
-                "database",
-                "server",
-                "deployment"
-            ]
-        },
-        {
-            "id": "99aa96a4-dd59-4669-a174-bf6c1f30562c",
-            "name": "Render: Cloud Application Hosting for Developers",
-            "url": "https://render.com/",
-            "description": "Render is a unified platform to build and run all your apps and websites with free SSL, global CDN, private networks and auto deploys from Git.",
-            "tags": [
-                "backend",
-                "tools",
-                "server",
-                "deployment"
-            ]
-        },
-        {
-            "id": "1c2ff713-a143-4b03-bdf6-f16f1c6aeb6f",
-            "name": "Fly.io: Deploy App Servers Close to Your Users",
-            "url": "https://fly.io/",
-            "description": "Fly is a platform for applications that need to run globally. Deploy your apps close to your users and scale deploys between 25 and 1000 VMs.",
-            "tags": [
-                "backend",
-                "tools",
-                "server",
-                "deployment"
-            ]
-        },
-        {
-            "id": "40356922-449f-41d6-81a9-1780befb1810",
-            "name": "Koyeb: Push code to production, everywhere, in minutes",
-            "url": "https://www.koyeb.com/",
-            "description": "Koyeb is a developer-friendly serverless platform to deploy apps globally. No-ops, servers, and infrastructure management.",
-            "tags": [
-                "backend",
-                "tools",
-                "server",
-                "deployment"
-            ]
-        },
-        {
-            "id": "7dc774e0-38ba-49cc-b02c-ab97aa232d04",
-            "name": "Qoddi.com - Premium Cloud App Hosting Platform",
-            "url": "https://qoddi.com/",
-            "description": "Get rid of AWS and Kubernetes: Qoddi is a fully managed App Hosting Platform running on a tier 1 network at 10% of the cost of similar solutions.",
-            "tags": [
-                "backend",
-                "tools",
-                "server",
-                "deployment"
-            ]
-        },
-        {
-            "id": "e3018573-4d52-4b66-b60f-b5d39208131f",
-            "name": "Netlify: Develop and deploy websites and apps in record time",
-            "url": "https://www.netlify.com/",
-            "description": "Netlify is the modern web development platform for Enterprises to realize the full potential of a scalable, customizable web architecture.",
-            "tags": [
-                "backend",
-                "tools",
-                "server",
-                "deployment"
-            ]
-        },
-        {
-            "id": "f61e7029-7e1c-406a-9911-2366401a239c",
-            "name": "Vercel: Develop. Preview. Ship. For the best frontend teams",
-            "url": "https://vercel.com/",
-            "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
-            "tags": [
-                "frontend",
-                "tools",
-                "deployment",
-                "server"
-            ]
-        },
-        {
-            "id": "36418062-c6c5-4c73-b1b6-b63f195ddf3c",
-            "name": "Refine",
-            "url": "https://refine.dev/",
-            "description": "Refine is an open-source React framework. Build your React-based CRUD applications without difficulties. Build React-based internal tool, admin panel, or any type of CRUD application, with full customization.",
-            "tags": [
-                "frontend",
-                "tools",
-                "react",
-                "crud"
-            ]
-        },
-        {
-            "id": "61291549-755c-4193-a0cc-40659c97563a",
-            "name": "Clean Code TypeScript",
-            "url": "https://labs42io.github.io/clean-code-typescript/",
-            "description": "Clean Code concepts adapted for TypeScript.",
-            "tags": [
-                "typescript",
-                "javascript",
-                "skills",
-                "frontend",
-                "backend",
-                "blog"
-            ]
-        },
-        {
-            "id": "9e7b827f-6d1b-496d-ac62-02af36b328c6",
-            "name": "AI Commits",
-            "url": "https://www.npmjs.com/package/aicommits",
-            "description": "A CLI that writes your git commit messages for you with AI.",
-            "tags": [
-                "tools",
-                "ai",
-                "git"
-            ]
-        },
-        {
-            "id": "41a049f3-1a83-4d09-9234-6da3a68c9e07",
-            "name": "Every Programmer Should Know",
-            "description": "A collection of (mostly) technical things every software developer should know about.",
-            "url": "https://github.com/mtdvio/every-programmer-should-know",
-            "tags": [
-                "skills",
-                "frontend",
-                "backend",
-                "blog"
-            ]
-        },
-        {
-            "id": "e78a728f-1b78-4367-bae6-fa9edcd86836",
-            "url": "https://github.com/AllThingsSmitty/css-protips",
-            "name": "CSS Protips",
-            "description": "A collection of tips to help take your CSS skills pro.",
-            "tags": [
-                "css",
-                "frontend",
-                "skills",
-                "blog"
-            ]
-        }
-    ]
+  "data": [
+    {
+      "id": "ef136b02-c06e-4db2-89f5-a04be0ef233b",
+      "name": "FreeCodeCamp Style Guide",
+      "url": "https://design-style-guide.freecodecamp.org/",
+      "description": "A living, breathing style guide for the FreeCodeCamp.org web platform.",
+      "tags": [
+        "styleguide",
+        "design",
+        "freecodecamp",
+        "frontend",
+        "css"
+      ]
+    },
+    {
+      "id": "34c978e2-0054-4f8a-bb2b-cc747ed37e8d",
+      "name": "SmallDev.tools",
+      "url": "https://smalldev.tools/",
+      "description": "A collection of small, useful tools for web developers.",
+      "tags": [
+        "tools",
+        "frontend",
+        "backend",
+        "css",
+        "javascript",
+        "html",
+        "json"
+      ]
+    },
+    {
+      "id": "def94062-289b-44cb-8d35-4e30d057fd3b",
+      "name": "Material Symbols and Icons",
+      "url": "https://fonts.google.com/icons",
+      "description": "Material Design icons by Google.",
+      "tags": [
+        "icons",
+        "design",
+        "frontend",
+        "svg",
+        "google",
+        "png"
+      ]
+    },
+    {
+      "id": "25cf90bd-6ba2-492f-bfe6-5cbd4fdffcfa",
+      "name": "HTML Colors, HTML UI Colors, HTML Palette",
+      "url": "https://materialui.co/htmlcolors/",
+      "description": "HTML Colors, HTML UI Colors with HEX, RGB, HSL, Color Names, Color Picker, and color theory.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design"
+      ]
+    },
+    {
+      "id": "e823eee8-1428-4f5a-a876-e65a1cd347af",
+      "name": "Color Hunt - Palettes for Designers and Artists",
+      "url": "https://colorhunt.co/",
+      "description": "Color Hunt is a free and open platform for color inspiration with thousands of trendy hand-picked color palettes.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design"
+      ]
+    },
+    {
+      "id": "e9af5490-27ff-4d7e-a779-77d59ba69b71",
+      "name": "CSS Section Separator Generator",
+      "url": "https://wweb.dev/resources/css-section-separator-generator",
+      "description": "A tool to generate CSS section separators.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design",
+        "tools"
+      ]
+    },
+    {
+      "id": "f6a2cf9f-d48c-490d-a657-602999195fc2",
+      "name": "Blur Background CSS Generator",
+      "url": "https://wweb.dev/resources/blur-background-css-generator",
+      "description": "A tool to generate CSS blur background.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design",
+        "tools"
+      ]
+    },
+    {
+      "id": "e02366c6-578a-417c-b873-9aedf53d3648",
+      "name": "Iconfinder",
+      "url": "https://www.iconfinder.com/",
+      "description": "Millions of graphics for your design projects. Created by independent designers.",
+      "tags": [
+        "icons",
+        "design",
+        "frontend",
+        "css",
+        "svg",
+        "png"
+      ]
+    },
+    {
+      "id": "5c8fdb17-2fbc-4b7d-90c6-6c0cd1c87069",
+      "name": "CSS Reference",
+      "url": "https://cssreference.io/",
+      "description": "A free visual guide to CSS.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design"
+      ]
+    },
+    {
+      "id": "2223ba3d-2d88-45ee-821c-78211d0a7ca5",
+      "name": "Image Color Extract Tool",
+      "url": "https://www.coolphptools.com/color_extract",
+      "description": "Extract colors from an image and generate a color palette for it.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design",
+        "tools"
+      ]
+    },
+    {
+      "id": "21ef3a30-af89-41e3-a22d-197e93e07ef8",
+      "name": "Super Designer",
+      "url": "https://superdesigner.co/",
+      "description": "A collection of free design tools to create unique backgrounds, patterns, shapes, images, and more with just a few clicks",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design"
+      ]
+    },
+    {
+      "id": "3b052b74-e6a3-4088-9ae6-2d2316f72075",
+      "name": "Animate.css",
+      "url": "https://animate.style/",
+      "description": "Animate.css is a library of ready-to-use, cross-browser animations for use in your web projects. Great for emphasis, home pages, sliders, and attention-guiding hints.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design"
+      ]
+    },
+    {
+      "id": "d2e8aefe-7bf6-40b0-80fd-a031471a4a60",
+      "name": "Heroicons",
+      "url": "https://heroicons.com/",
+      "description": "Beautiful hand-crafted SVG icons, by the makers of Tailwind CSS.",
+      "tags": [
+        "icons",
+        "design",
+        "frontend",
+        "css",
+        "svg"
+      ]
+    },
+    {
+      "id": "aa664ff0-b6c8-46bb-99cb-21866bae3333",
+      "name": "Tremor",
+      "url": "https://www.tremor.so/",
+      "description": "The React library to build dashboards fast.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design",
+        "react"
+      ]
+    },
+    {
+      "id": "d829c90e-d8e1-42de-8b6c-c5c4b78edbc4",
+      "name": "Can I Use",
+      "url": "https://caniuse.com/",
+      "description": "\"Can I use\" provides up-to-date browser support tables for support of front-end web technologies on desktop and mobile web browsers.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design",
+        "javascript",
+        "browser"
+      ]
+    },
+    {
+      "id": "c4ec3569-6a49-4da5-990f-62c44dca02ba",
+      "name": "Slick Carousel",
+      "url": "https://kenwheeler.github.io/slick/",
+      "description": "The last carousel you'll ever need.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design",
+        "javascript",
+        "carousels"
+      ]
+    },
+    {
+      "id": "74c58bb3-f1ae-4ae1-8df0-37bdaf33b708",
+      "name": "Next UI",
+      "url": "https://nextui.org/",
+      "description": "Make beautiful websites regardless of your design experience.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design",
+        "javascript",
+        "react"
+      ]
+    },
+    {
+      "id": "5f36e774-7e41-4ffb-9853-90cd6544649f",
+      "name": "Tailwind CSS Cheat Sheet",
+      "url": "https://tailwindcomponents.com/cheatsheet/",
+      "description": "A cheat sheet for Tailwind CSS, a utility-first CSS framework for rapidly building custom designs.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design",
+        "javascript",
+        "tailwind"
+      ]
+    },
+    {
+      "id": "0ea3718f-995b-4be5-a1f8-5bdf06101575",
+      "name": "CSS Selectors/Combinators Classifier",
+      "url": "https://selectors.info/",
+      "description": "A tool to classify CSS selectors/combinators into classes.",
+      "tags": [
+        "frontend",
+        "css",
+        "html",
+        "design",
+        "tools"
+      ]
+    },
+    {
+      "id": "23558808-4736-4589-a4f3-4b502bc1cbd9",
+      "name": "For Developers - CodeSignal",
+      "url": "https://codesignal.com/developers/",
+      "description": "Practice for technical interviews, get acquainted with the CodeSignal platform, and build your developer resume.",
+      "tags": [
+        "javascript",
+        "interviews",
+        "skills"
+      ]
+    },
+    {
+      "id": "983a1c23-73ce-4d6e-af07-87d610757409",
+      "name": "Replit: The collaborative browser based IDE",
+      "url": "https://replit.com/",
+      "description": "Replit is a simple yet powerful online IDE, Editor, Compiler, Interpreter, and REPL. Code, compile, run, and host in 50+ programming languages.",
+      "tags": [
+        "tools",
+        "javascript",
+        "ide",
+        "editor",
+        "compiler",
+        "interpreter",
+        "repl"
+      ]
+    },
+    {
+      "id": "eeb14ebe-f55b-41f9-9c1d-e4ac8fb0e9b4",
+      "name": "Squoosh",
+      "url": "https://squoosh.app/",
+      "description": "Squoosh is the ultimate image optimizer that allows you to compress and compare images with different codecs in your browser.",
+      "tags": [
+        "tools",
+        "images",
+        "browser"
+      ]
+    },
+    {
+      "id": "f3dc635b-239e-474e-a4b7-605e2efac3d9",
+      "name": "Dribbble - Discover the World's Top Designers",
+      "url": "https://dribbble.com/shots",
+      "description": "Millions of designers and agencies around the world showcase their portfolio work on Dribbble - the home to the world's best design and creative professionals.",
+      "tags": [
+        "design",
+        "frontend"
+      ]
+    },
+    {
+      "id": "917cf5af-ed07-4ae6-87d9-237a40348902",
+      "name": "PublicAPI - A Directory of Free Public & Open Rest APIs",
+      "url": "https://publicapi.dev/",
+      "description": "A collective list of free APIs for use in software and web development.",
+      "tags": [
+        "api",
+        "backend"
+      ]
+    },
+    {
+      "id": "ed638a48-3009-4499-96ab-85f3c5d78458",
+      "name": "Codecademy - Learn to Code",
+      "url": "https://www.codecademy.com/",
+      "description": "Learn the technical skills you need for the job you want. As leaders in online education and learning to code, we've taught over 50 million people using a tested curriculum and an interactive learning environment. Start with HTML, CSS, JavaScript, SQL, Python, Data Science, and more.",
+      "tags": [
+        "javascript",
+        "css",
+        "html",
+        "python",
+        "sql"
+      ]
+    },
+    {
+      "id": "a3dee1a2-0d65-4e62-8a18-6f3bd965a341",
+      "name": "React Testing Library",
+      "url": "https://testing-library.com/docs/react-testing-library/intro/",
+      "description": "Simple and complete React DOM testing utilities that encourage good testing practices.",
+      "tags": [
+        "javascript",
+        "react",
+        "testing"
+      ]
+    },
+    {
+      "id": "1fa50017-a145-49f7-840a-017479bbc226",
+      "name": "JavaScript Advanced Questions",
+      "url": "https://github.com/lydiahallie/javascript-questions/blob/master/README.md",
+      "description": "From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview!.",
+      "tags": [
+        "javascript",
+        "interviews",
+        "skills"
+      ]
+    },
+    {
+      "id": "9c25cbd6-5700-4271-91d8-546faa356a54",
+      "name": "Full Stack Developer Roadmap",
+      "url": "https://roadmap.sh/full-stack",
+      "description": "Step by step guide to becoming a modern full stack developer in 2023.",
+      "tags": [
+        "javascript",
+        "backend",
+        "frontend",
+        "skills"
+      ]
+    },
+    {
+      "id": "e466ca41-6c7f-462f-80ee-d96f57c03d43",
+      "name": "Embla Carousel",
+      "url": "https://www.embla-carousel.com/examples/predefined/",
+      "description": "Embla Carousel is a bare bones carousel library with great fluid motion and excellent browser support.",
+      "tags": [
+        "javascript",
+        "carousels"
+      ]
+    },
+    {
+      "id": "6ab929ff-75d8-4187-b9d5-1b5c640bf994",
+      "name": "Frontend Practice",
+      "url": "https://www.frontendpractice.com/",
+      "description": "Take your frontend skills to the next level by recreating real websites from real companies. The perfect type of practice for developers of all skill levels.",
+      "tags": [
+        "javascript",
+        "frontend",
+        "skills"
+      ]
+    },
+    {
+      "id": "715df456-8fc7-4d22-bab0-5fd1367931ee",
+      "name": "Frontend Mentor",
+      "url": "https://www.frontendmentor.io/",
+      "description": "Improve your front-end coding skills by building real projects. Solve real-world HTML, CSS and JavaScript challenges whilst working to professional designs.",
+      "tags": [
+        "javascript",
+        "frontend",
+        "skills"
+      ]
+    },
+    {
+      "id": "03d0f230-9b20-4aa0-8f17-b14df893f35c",
+      "name": "DevChallenges.io",
+      "url": "https://devchallenges.io/",
+      "description": "Become a better developer by building real projects. Solve real-world problems while working on professional designs alongside the best community.",
+      "tags": [
+        "javascript",
+        "skills"
+      ]
+    },
+    {
+      "id": "45d22782-0303-4d45-b618-c8841f5501dd",
+      "name": "Codewell",
+      "url": "https://www.codewell.cc/",
+      "description": "With Codewell, you can browse high quality Figma templates that you can use to sharpen your HTML and CSS skills.",
+      "tags": [
+        "javascript",
+        "skills",
+        "html",
+        "css",
+        "figma",
+        "frontend"
+      ]
+    },
+    {
+      "id": "9c92511d-07bf-4837-a359-d037f6eaa5d1",
+      "name": "SVG Repo - Free SVG Vectors and Icons",
+      "url": "https://www.svgrepo.com/",
+      "description": "Search, explore and edit the best-fitting free icons or vectors for your projects using a wide variety vector library.",
+      "tags": [
+        "javascript",
+        "icons",
+        "svg",
+        "frontend"
+      ]
+    },
+    {
+      "id": "dc6c0d5c-06ee-4f56-841c-ef466762940e",
+      "name": "Pruebas Técnicas de Programación",
+      "url": "https://pruebastecnicas.com/",
+      "description": "Practica tus habilidades de programación con pruebas técnicas de empresas reales. Usa el stack que prefieras, entrega tus ejercicios y recibe el feedback de la comunidad.",
+      "tags": [
+        "javascript",
+        "interviews",
+        "skills"
+      ]
+    },
+    {
+      "id": "63bd91d5-3d60-4fc8-a493-db24a870b524",
+      "name": "JavaScript Questions Blog",
+      "url": "https://iq.js.org/",
+      "description": "JavaScript Questions Blog is a collection of questions and posts can help you improve your JavaScript and Frontend development knowledge.",
+      "tags": [
+        "javascript",
+        "skills",
+        "frontend",
+        "blog",
+        "react",
+        "typescript",
+        "angular"
+      ]
+    },
+    {
+      "id": "7870a20f-0f13-40cf-a343-05cd5b995d25",
+      "url": "https://fffuel.co/css-selectors/",
+      "name": "CSS Selectors: A Visual Guide",
+      "description": "A visual guide to CSS selectors.",
+      "tags": [
+        "css",
+        "frontend"
+      ]
+    },
+    {
+      "id": "a16471f5-d813-49d6-aa03-be717bef61bb",
+      "name": "Glassmorphism CSS Generator",
+      "url": "https://ui.glass/generator/",
+      "description": "Get started with this free CSS generator based on the glassmorphism design specifications to quickly design and customize the style properties.",
+      "tags": [
+        "css",
+        "frontend",
+        "tools"
+      ]
+    },
+    {
+      "id": "c4a90763-8341-400c-8c0c-ba79d5145332",
+      "name": "OverAPI.com",
+      "url": "https://overapi.com/",
+      "description": "Collecting all the cheat sheets.",
+      "tags": [
+        "javascript",
+        "css",
+        "html",
+        "frontend",
+        "tools"
+      ]
+    },
+    {
+      "id": "2950065d-b858-436e-83e2-00bf9e730b81",
+      "name": "Konsta UI",
+      "url": "https://konstaui.com/",
+      "description": "Pixel perfect mobile UI components built with Tailwind CSS. Compatible with React, Vue, and Svelte.",
+      "tags": [
+        "css",
+        "frontend",
+        "tailwind",
+        "react",
+        "vue",
+        "svelte"
+      ]
+    },
+    {
+      "id": "8ba5110c-c3ea-45ca-9eda-a27d6947f2f7",
+      "name": "FL0 - backend engineering, supercharged",
+      "url": "https://www.fl0.com/",
+      "description": "Deploy backend applications and databases in minutes.",
+      "tags": [
+        "backend",
+        "tools",
+        "database",
+        "server",
+        "deployment"
+      ]
+    },
+    {
+      "id": "99aa96a4-dd59-4669-a174-bf6c1f30562c",
+      "name": "Render: Cloud Application Hosting for Developers",
+      "url": "https://render.com/",
+      "description": "Render is a unified platform to build and run all your apps and websites with free SSL, global CDN, private networks and auto deploys from Git.",
+      "tags": [
+        "backend",
+        "tools",
+        "server",
+        "deployment"
+      ]
+    },
+    {
+      "id": "1c2ff713-a143-4b03-bdf6-f16f1c6aeb6f",
+      "name": "Fly.io: Deploy App Servers Close to Your Users",
+      "url": "https://fly.io/",
+      "description": "Fly is a platform for applications that need to run globally. Deploy your apps close to your users and scale deploys between 25 and 1000 VMs.",
+      "tags": [
+        "backend",
+        "tools",
+        "server",
+        "deployment"
+      ]
+    },
+    {
+      "id": "40356922-449f-41d6-81a9-1780befb1810",
+      "name": "Koyeb: Push code to production, everywhere, in minutes",
+      "url": "https://www.koyeb.com/",
+      "description": "Koyeb is a developer-friendly serverless platform to deploy apps globally. No-ops, servers, and infrastructure management.",
+      "tags": [
+        "backend",
+        "tools",
+        "server",
+        "deployment"
+      ]
+    },
+    {
+      "id": "7dc774e0-38ba-49cc-b02c-ab97aa232d04",
+      "name": "Qoddi.com - Premium Cloud App Hosting Platform",
+      "url": "https://qoddi.com/",
+      "description": "Get rid of AWS and Kubernetes: Qoddi is a fully managed App Hosting Platform running on a tier 1 network at 10% of the cost of similar solutions.",
+      "tags": [
+        "backend",
+        "tools",
+        "server",
+        "deployment"
+      ]
+    },
+    {
+      "id": "e3018573-4d52-4b66-b60f-b5d39208131f",
+      "name": "Netlify: Develop and deploy websites and apps in record time",
+      "url": "https://www.netlify.com/",
+      "description": "Netlify is the modern web development platform for Enterprises to realize the full potential of a scalable, customizable web architecture.",
+      "tags": [
+        "backend",
+        "tools",
+        "server",
+        "deployment"
+      ]
+    },
+    {
+      "id": "f61e7029-7e1c-406a-9911-2366401a239c",
+      "name": "Vercel: Develop. Preview. Ship. For the best frontend teams",
+      "url": "https://vercel.com/",
+      "description": "Vercel combines the best developer experience with an obsessive focus on end-user performance. Our platform enables frontend teams to do their best work.",
+      "tags": [
+        "frontend",
+        "tools",
+        "deployment",
+        "server"
+      ]
+    },
+    {
+      "id": "36418062-c6c5-4c73-b1b6-b63f195ddf3c",
+      "name": "Refine",
+      "url": "https://refine.dev/",
+      "description": "Refine is an open-source React framework. Build your React-based CRUD applications without difficulties. Build React-based internal tool, admin panel, or any type of CRUD application, with full customization.",
+      "tags": [
+        "frontend",
+        "tools",
+        "react",
+        "crud"
+      ]
+    },
+    {
+      "id": "61291549-755c-4193-a0cc-40659c97563a",
+      "name": "Clean Code TypeScript",
+      "url": "https://labs42io.github.io/clean-code-typescript/",
+      "description": "Clean Code concepts adapted for TypeScript.",
+      "tags": [
+        "typescript",
+        "javascript",
+        "skills",
+        "frontend",
+        "backend",
+        "blog"
+      ]
+    },
+    {
+      "id": "9e7b827f-6d1b-496d-ac62-02af36b328c6",
+      "name": "AI Commits",
+      "url": "https://www.npmjs.com/package/aicommits",
+      "description": "A CLI that writes your git commit messages for you with AI.",
+      "tags": [
+        "tools",
+        "ai",
+        "git"
+      ]
+    },
+    {
+      "id": "41a049f3-1a83-4d09-9234-6da3a68c9e07",
+      "name": "Every Programmer Should Know",
+      "description": "A collection of (mostly) technical things every software developer should know about.",
+      "url": "https://github.com/mtdvio/every-programmer-should-know",
+      "tags": [
+        "skills",
+        "frontend",
+        "backend",
+        "blog"
+      ]
+    },
+    {
+      "id": "e78a728f-1b78-4367-bae6-fa9edcd86836",
+      "url": "https://github.com/AllThingsSmitty/css-protips",
+      "name": "CSS Protips",
+      "description": "A collection of tips to help take your CSS skills pro.",
+      "tags": [
+        "css",
+        "frontend",
+        "skills",
+        "blog"
+      ]
+    },
+    {
+      "id": "e8178744-d985-45cc-9d06-0158b32b2a9a",
+      "name": "Oh My Git!",
+      "url": "https://ohmygit.org/",
+      "description": "An open source game about learning Git!",
+      "tags": [
+        "git",
+        "skills",
+        "games"
+      ]
+    },
+    {
+      "id": "702c66d2-10d1-49c3-97b0-bcad29de192b",
+      "name": "Codédex | Start your coding adventure!",
+      "url": "https://www.codedex.io/",
+      "description": "Codédex is a free, open-source, and fun way to learn to code. It's a game that teaches you the basics of programming.",
+      "tags": [
+        "javascript",
+        "skills",
+        "games"
+      ]
+    },
+    {
+      "id": "4896e448-e436-4ca9-b041-c912ca84dddd",
+      "url": "https://flukeout.github.io/",
+      "name": "CSS Diner",
+      "description": "CSS Diner is a fun game to help you learn and practice CSS selectors.",
+      "tags": [
+        "css",
+        "skills",
+        "games"
+      ]
+    },
+    {
+      "id": "0efe5658-003e-4df5-8f1c-72bc91622185",
+      "url": "https://warriorjs.com/",
+      "name": "WarriorJS",
+      "description": "WarriorJS is an exciting game of programming and Artificial Intelligence where you will train your warrior to become the greatest.",
+      "tags": [
+        "javascript",
+        "skills",
+        "games"
+      ]
+    },
+    {
+      "id": "559ccf19-a8d8-4731-b714-c47049042507",
+      "url": "https://cryptozombies.io/",
+      "name": "CryptoZombies",
+      "description": "CryptoZombies is an interactive school that teaches you all things technical about blockchains. Learn to make smart contracts in Solidity or Libra by making your own crypto-collectibles game.",
+      "tags": [
+        "blockchain",
+        "skills",
+        "games"
+      ]
+    },
+    {
+      "id": "8aa152c1-fb3a-4e98-ba9b-3b37def7a661",
+      "url": "https://www.codingame.com/start/",
+      "name": "CodinGame",
+      "description": "CodinGame is a challenge-based training platform for programmers where you can improve your coding skills with fun exercises (25+ languages supported).",
+      "tags": [
+        "skills",
+        "games"
+      ]
+    },
+    {
+      "id": "07891141-8477-4a34-80e5-abb621a05a26",
+      "url": "https://mystery.knightlab.com/",
+      "name": "The SQL Murder Mystery",
+      "description": "There's been a Murder in SQL City! The SQL Murder Mystery is designed to be both a self-directed lesson to learn SQL concepts and commands and a fun game for experienced SQL users to solve an intriguing crime.",
+      "tags": [
+        "sql",
+        "games"
+      ]
+    },
+    {
+      "id": "0c48fa41-9230-440c-8905-819127cd7402",
+      "url": "https://jsoncrack.com/",
+      "name": "JSON Crack | Visualize Instantly Into Graphs",
+      "description": "JSON Crack empowers users to visualize, analyze, and manipulate data with ease, making it a versatile and powerful tool for data representation and exploration.",
+      "tags": [
+        "json",
+        "tools"
+      ]
+    },
+    {
+      "id": "6a869d19-4aba-40b6-901c-4d0b3ef6fee6",
+      "name": "AutoAnimate - Add motion to your apps with a single line of code",
+      "url": "https://auto-animate.formkit.com/",
+      "description": "AutoAnimate is a zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Solid, Vue, Svelte, or any other JavaScript application."
+    },
+    {
+      "id": "91e72de5-1dc2-419c-8221-c08455010190",
+      "description": "An online playground to convert JSON to TypeScript.",
+      "url": "https://transform.tools/json-to-typescript",
+      "name": "JSON to TypeScript",
+      "tags": [
+        "json",
+        "typescript",
+        "tools"
+      ]
+    },
+    {
+      "id": "dedbf973-254e-4a47-80cf-3c1cf0bf218d",
+      "name": "Browse all software development courses on scrimba.com",
+      "url": "https://scrimba.com/learn/learnsoftwaredevelopment",
+      "description": "Scrimba is a fun and fast way of learning to code! Our interactive courses and tutorials will teach you React, Vue, Angular, JavaScript, HTML, CSS, and more.",
+      "tags": [
+        "javascript",
+        "css",
+        "html",
+        "react",
+        "vue",
+        "angular",
+        "skills",
+        "frontend",
+        "backend",
+        "blog"
+      ]
+    },
+    {
+      "id": "3d8c960e-aacd-4c76-9ff7-4bedc7dd03d3",
+      "description": "Atropos is a lightweight, free and open-source JavaScript library to create stunning touch-friendly 3D parallax hover effects.",
+      "url": "https://atroposjs.com/",
+      "name": "Atropos JS",
+      "tags": [
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "id": "c714815e-7e31-4009-b8dd-9a3aac037235",
+      "description": "A JavaScript library to position floating elements and create interactions for them.",
+      "url": "https://floating-ui.com/docs/tutorial",
+      "name": "Floating UI",
+      "tags": [
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "id": "8614edc1-8064-4432-8c68-89e003a48479",
+      "name": "Swiper - The Most Modern Mobile Touch Slider",
+      "url": "https://swiperjs.com/",
+      "description": "Swiper is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior.",
+      "tags": [
+        "javascript",
+        "frontend"
+      ]
+    },
+    {
+      "id": "def9a571-fc41-4481-8d2d-e8c1dbed7744",
+      "name": "React-Toastify",
+      "url": "https://fkhadra.github.io/react-toastify/introduction",
+      "description": "React-Toastify allows you to add notifications to your app with ease. No more nonsense! Just make a component and pass the content to display.",
+      "tags": [
+        "javascript",
+        "react",
+        "frontend"
+      ]
+    },
+    {
+      "id": "f652c055-983e-49a7-8eaf-fa77127ab686",
+      "url": "https://www.tailwindcss-animated.com/",
+      "name": "Tailwind CSS Animated",
+      "description": "Tailwind CSS Animated is a collection of hover animations, transitions, and other highly interactive components that work well together or can be used individually.",
+      "tags": [
+        "javascript",
+        "css",
+        "frontend",
+        "tailwind"
+      ]
+    },
+    {
+      "url": "https://cssgridgarden.com/",
+      "name": "CSS Grid Garden",
+      "description": "A game for learning CSS grid layout.",
+      "tags": [
+        "css",
+        "frontend",
+        "games"
+      ]
+    },
+    {
+      "id": "a6c9e35f-43d6-4fee-a216-b38620407a1d",
+      "url": "https://www.nerdfonts.com/cheat-sheet",
+      "name": "Nerd Fonts Cheat Sheet",
+      "description": "A collection of over 50 free monospaced fonts for developers, patched with fontforge.",
+      "tags": [
+        "css",
+        "frontend",
+        "fonts"
+      ]
+    },
+    {
+      "id": "f82d8c5c-efaf-47ef-b3a4-64579badf562",
+      "url": "https://explainshell.com/",
+      "name": "Explain Shell",
+      "description": "Write down a command-line to see the help text that matches each argument.",
+      "tags": [
+        "tools",
+        "backend",
+        "terminal"
+      ]
+    },
+    {
+      "id": "47091a85-3dca-4bdd-b399-df60d5bbdb2c",
+      "url": "https://www.jsondataai.com/",
+      "name": "JSON Data AI",
+      "description": "JSON Data AI is a free tool that generates JSON data based on a template. It's useful for testing and prototyping.",
+      "tags": [
+        "tools",
+        "json"
+      ]
+    },
+    {
+      "id": "8929d88d-399f-4a19-b335-582bb53ba55f",
+      "url": "https://caninclude.glitch.me/",
+      "name": "Can Include",
+      "description": "Can I include a child tag to a parent tag?",
+      "tags": [
+        "tools",
+        "html"
+      ]
+    },
+    {
+      "id": "a6c0d846-a575-4893-98ac-7223a2c5ad3c",
+      "url": "https://spirals.vercel.app/",
+      "name": "Spirals",
+      "description": "Generate beautiful AI spiral art with one click. Powered by Vercel and Replicate.",
+      "tags": [
+        "tools"
+      ]
+    },
+    {
+      "id": "96d4b86b-31e7-4b09-8bb8-f269b4a07f64",
+      "url": "https://cssgrid-generator.netlify.app/",
+      "name": "CSS Grid Generator",
+      "description": "A tool for generating responsive CSS for use with CSS Grid.",
+      "tags": [
+        "tools",
+        "css",
+        "frontend"
+      ]
+    },
+    {
+      "id": "9d6f8428-11b4-4d91-a348-829a22dc9b79",
+      "url": "https://paperpal.com/",
+      "name": "PaperPal",
+      "description": "PaperPal is a free online editor that helps you write error-free essays.",
+      "tags": [
+        "tools",
+        "writing",
+        "ai"
+      ]
+    },
+    {
+      "id": "7e0178a1-817d-4139-b3a6-552c286daeef",
+      "url": "https://clone-ui.design/",
+      "name": "Clone UI",
+      "description": "Ready to copy and paste with Tailwind CSS. Any design system, any framework.",
+      "tags": [
+        "tools",
+        "frontend",
+        "design"
+      ]
+    },
+    {
+      "id": "842c1fff-6c5e-4c17-a4dc-7676e136f8f9",
+      "url": "https://www.flexer.dev/",
+      "name": "Flexer",
+      "description": "Flexer is a free tool that helps you visualize CSS flexbox layouts.",
+      "tags": [
+        "tools",
+        "css",
+        "frontend"
+      ]
+    }
+  ]
 }
