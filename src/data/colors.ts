@@ -1,5 +1,4 @@
 import seedrandom from 'seedrandom'
-import type { RGB, HEX } from '@/types'
 
 function generateRandomColorFromText (tagText: string): RGB {
   const rng = seedrandom(tagText)

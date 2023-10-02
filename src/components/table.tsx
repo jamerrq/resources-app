@@ -1,6 +1,5 @@
 'use client'
 
-import { type Item } from '@/types'
 import data from '@/data/data.json'
 import Card from './card'
 import { useMemo, useState } from 'react'
@@ -9,7 +8,7 @@ import { giveMeTheColors } from '@/data/colors'
 
 const rawData: Item[] = data.data
 const allTags = new Set(rawData.reduce((acc: string[], val) =>
-  acc.concat(val.tags), []))
+  acc.concat(val.tags ?? []), []))
 
 export default function Table (): JSX.Element {
   const [search, setSearch] = useState<string | null>(null)
@@ -38,7 +37,7 @@ export default function Table (): JSX.Element {
     return rawData.filter((item) => {
       // Filter by tags
       if (tags.size > 0) {
-        if (!item.tags.some((tag) => tags.has(tag))) return false
+        if (item.tags !== undefined && !item.tags.some((tag) => tags.has(tag))) return false
       }
       // Filter by search
       if (search === null) return true

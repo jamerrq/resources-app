@@ -1,5 +1,4 @@
 import { giveMeTheColors } from '../data/colors'
-import type { Item } from '../types'
 
 export default function Card (item: Item, index: string): JSX.Element {
   return (
