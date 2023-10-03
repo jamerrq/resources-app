@@ -731,7 +731,15 @@
       "id": "6a869d19-4aba-40b6-901c-4d0b3ef6fee6",
       "name": "AutoAnimate - Add motion to your apps with a single line of code",
       "url": "https://auto-animate.formkit.com/",
-      "description": "AutoAnimate is a zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Solid, Vue, Svelte, or any other JavaScript application."
+      "description": "AutoAnimate is a zero-config, drop-in animation utility that adds smooth transitions to your web app. You can use it with React, Solid, Vue, Svelte, or any other JavaScript application.",
+      "tags": [
+        "javascript",
+        "frontend",
+        "css",
+        "html",
+        "design",
+        "animations"
+      ]
     },
     {
       "id": "91e72de5-1dc2-419c-8221-c08455010190",
