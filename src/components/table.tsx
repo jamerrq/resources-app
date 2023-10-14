@@ -61,7 +61,7 @@ export default function Table (): JSX.Element {
     <div className="flex flex-col gap-2 min-w-full">
       <div className="flex gap-2 text-sm px-2 flex-col">
         <div className="flex flex-row gap-2 justify-around max-w-lg self-center">
-          <input type="text" className='self-center rounded text-center py-1 w-80 border-2 border-slate'
+          <input type="text" className='self-center rounded text-center py-1 w-80 border-2 border-slate text-[#232946]'
             placeholder='search...' onChange={handleSearch} />
           <button className="py-1 px-2 rounded border-2 border-black select-none font-bold"
             onClick={() => { setShowTags(state => !state) }}

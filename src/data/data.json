@@ -1202,6 +1202,16 @@
         "backend",
         "blog"
       ]
+    },
+    {
+      "url": "https://www.tradingview.com/lightweight-charts/",
+      "name": "TradingView Lightweight Charts",
+      "description": "TradingView Lightweight Charts are one of the smallest and fastest financial HTML5 charts. They are responsive and easy to customize.",
+      "tags": [
+        "tools",
+        "frontend",
+        "charts"
+      ]
     }
   ]
 }
