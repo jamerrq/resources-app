@@ -714,7 +714,8 @@
       "description": "There's been a Murder in SQL City! The SQL Murder Mystery is designed to be both a self-directed lesson to learn SQL concepts and commands and a fun game for experienced SQL users to solve an intriguing crime.",
       "tags": [
         "sql",
-        "games"
+        "games",
+        "database"
       ]
     },
     {
@@ -927,6 +928,279 @@
         "tools",
         "css",
         "frontend"
+      ]
+    },
+    {
+      "description": "Not sure what colors to use in your designs or where to use them? Happy Hues is a color palette inspiration site that acts as a real world example as to how the colors could be used in your design projects.",
+      "url": "https://www.happyhues.co/",
+      "name": "Happy Hues. Curated colors in context.",
+      "tags": [
+        "tools",
+        "frontend",
+        "design",
+        "colors"
+      ]
+    },
+    {
+      "url": "https://www.cssgradienttext.com/",
+      "name": "CSS Gradient Text",
+      "description": "CSS Gradient Text is a free tool that lets you create beautiful gradient text for your website.",
+      "tags": [
+        "tools",
+        "css",
+        "frontend",
+        "design",
+        "colors"
+      ]
+    },
+    {
+      "url": "https://d3js.org/",
+      "name": "D3.js",
+      "description": "D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS.",
+      "tags": [
+        "tools",
+        "javascript",
+        "frontend",
+        "charts"
+      ]
+    },
+    {
+      "url": "https://animatedicons.co/",
+      "name": "Animated Icons",
+      "description": "500+ Animated Icons for the Modern Web. Elevate Your website with High-Quality animations in 4 different styles. Avaiable as Lottie animations. Completely free to use.",
+      "tags": [
+        "tools",
+        "frontend",
+        "animations",
+        "icons"
+      ]
+    },
+    {
+      "url": "https://danilowoz.com/blog/atomic-design-with-react",
+      "name": "Atomic Design with React",
+      "description": "Learn how to use Atomic Design to create reusable components with React.",
+      "tags": [
+        "tools",
+        "frontend",
+        "react",
+        "design",
+        "blog"
+      ]
+    },
+    {
+      "url": "https://dev.to/lydiahallie/javascript-visualized-promises-async-await-5gke",
+      "name": "JavaScript Visualized: Promises & Async/Await",
+      "description": "Learn how JavaScript's asynchronous code works behind the scenes by visualizing the Promise and async/await APIs.",
+      "tags": [
+        "tools",
+        "frontend",
+        "javascript",
+        "blog"
+      ]
+    },
+    {
+      "url": "https://algorithm-visualizer.org/",
+      "name": "Algorithm Visualizer",
+      "description": "Algorithm Visualizer is an interactive online platform that visualizes algorithms from code.",
+      "tags": [
+        "tools",
+        "frontend",
+        "javascript"
+      ]
+    },
+    {
+      "url": "https://skills.github.com/",
+      "name": "GitHub Skills",
+      "description": "Learn how to use GitHub with interactive courses designed for beginners and experts.",
+      "tags": [
+        "tools",
+        "frontend",
+        "github",
+        "skills"
+      ]
+    },
+    {
+      "url": "https://proportio.app/",
+      "name": "Proportio",
+      "description": "Tool for creating proportional scales for typography, iconography, spacing, and components in design systems.",
+      "tags": [
+        "tools",
+        "frontend",
+        "design"
+      ]
+    },
+    {
+      "url": "https://xsgames.co/animatiss/",
+      "name": "Animatiss",
+      "description": "Nice collection of CSS animations for your awesome web projects.",
+      "tags": [
+        "tools",
+        "frontend",
+        "css",
+        "animations"
+      ]
+    },
+    {
+      "url": "https://griddy.io/",
+      "name": "Griddy",
+      "description": "Griddy is a CSS Grid playground and code generator.",
+      "tags": [
+        "tools",
+        "frontend",
+        "css"
+      ]
+    },
+    {
+      "url": "https://github.com/eludadev/css-docs",
+      "name": "CSS Docs",
+      "description": "CSS Selectors, Flexbox, Grid, Box Model, visually explained.",
+      "tags": [
+        "tools",
+        "frontend",
+        "css"
+      ]
+    },
+    {
+      "url": "https://tw-elements.com/",
+      "name": "Tailwind CSS Elements",
+      "description": "Tailwind CSS Elements is a free library of HTML elements designed to be used with Tailwind CSS.",
+      "tags": [
+        "tools",
+        "frontend",
+        "css",
+        "tailwind"
+      ]
+    },
+    {
+      "url": "https://www.usebruno.com/",
+      "name": "Bruno",
+      "description": "Bruno is a new and innovative open source API client, aimed at revolutionizing the status quo represented by Postman, Insomnia and similar tools out there.",
+      "tags": [
+        "tools",
+        "backend",
+        "api"
+      ]
+    },
+    {
+      "url": "https://resources.github.com/learn/pathways/#discover",
+      "name": "GitHub Learning Pathways",
+      "description": "Whether you're a developer, engineering leader or GitHub administrator, there's a path for you to explore. GitHub's Learning Pathways are self-paced tutorials designed to help you grow from beginner to expert.",
+      "tags": [
+        "tools",
+        "frontend",
+        "backend",
+        "github",
+        "skills"
+      ]
+    },
+    {
+      "url": "https://www.webdevvisuals.com/visuals",
+      "name": "Web Dev Visuals",
+      "description": "A collection of web development visuals to help you understand concepts better.",
+      "tags": [
+        "tools",
+        "frontend",
+        "backend",
+        "skills"
+      ]
+    },
+    {
+      "url": "https://haikei.app/",
+      "name": "Haikei",
+      "description": "Haikei is a web app to generate unique SVG shapes, backgrounds, and patterns.",
+      "tags": [
+        "tools",
+        "frontend",
+        "design",
+        "svg"
+      ]
+    },
+    {
+      "url": "https://9elements.github.io/fancy-border-radius/",
+      "name": "Fancy Border Radius",
+      "description": "Fancy Border Radius lets you create fancy CSS border radius shapes.",
+      "tags": [
+        "tools",
+        "frontend",
+        "css"
+      ]
+    },
+    {
+      "url": "https://neumorphism.io",
+      "name": "Neumorphism.io",
+      "description": "CSS code generator that will help with colors, gradients and shadows to adapt this new design trend or discover its posibilities.",
+      "tags": [
+        "tools",
+        "frontend",
+        "css",
+        "design"
+      ]
+    },
+    {
+      "url": "https://webcode.tools/",
+      "name": "WebCode Tools",
+      "description": "Code generators for front-end development.",
+      "tags": [
+        "tools",
+        "frontend",
+        "css",
+        "html",
+        "javascript"
+      ]
+    },
+    {
+      "url": "https://animista.net/",
+      "name": "Animista",
+      "description": "Animista is a place where you can play with a collection of ready to use CSS animations, tweak them and download only those you will actually use.",
+      "tags": [
+        "tools",
+        "frontend",
+        "css",
+        "animations"
+      ]
+    },
+    {
+      "url": "https://devdocs.io/",
+      "name": "DevDocs",
+      "description": "DevDocs combines multiple API documentations in a fast, organized, and searchable interface.",
+      "tags": [
+        "tools",
+        "frontend",
+        "backend",
+        "documentation"
+      ]
+    },
+    {
+      "url": "https://latexresu.me/",
+      "name": "Resumake",
+      "description": "Resumake is a free online resume builder that lets you create a beautiful and professional resume in minutes.",
+      "tags": [
+        "tools",
+        "frontend",
+        "design",
+        "resume"
+      ]
+    },
+    {
+      "url": "https://ray.so/",
+      "name": "Ray.so",
+      "description": "Ray.so is a free and open-source tool that lets you easily create beautiful images with code snippets.",
+      "tags": [
+        "tools",
+        "frontend",
+        "backend",
+        "design"
+      ]
+    },
+    {
+      "url": "https://daily.dev/",
+      "name": "daily.dev | Where developers grow together",
+      "description": "Get the hottest dev news from the best tech blogs on any topic you can think of. Stay updated daily, and unlock more time to do fun stuff.",
+      "tags": [
+        "tools",
+        "frontend",
+        "backend",
+        "blog"
       ]
     }
   ]

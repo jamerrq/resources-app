@@ -3,10 +3,14 @@
 import { useState } from 'react'
 import Modal from 'react-modal'
 import { BsFillInfoCircleFill } from 'react-icons/bs'
-import { IconBrandNextjs, IconBrandTypescript, IconBrandTailwind, IconHeartHandshake, IconSquareRoundedXFilled } from '@tabler/icons-react'
+import { IconBrandNextjs, IconBrandTypescript, IconBrandTailwind, IconSquareRoundedXFilled, IconHeartFilled } from '@tabler/icons-react'
 
-// Font
+// Fonts
 import { Bricolage_Grotesque } from 'next/font/google'
+import localFont from 'next/font/local'
+
+export const firaMono = localFont({ src: '../../public/fonts/Fira_Mono/FiraMono-Bold.ttf' })
+
 const bricolageGrotesque = Bricolage_Grotesque({
   weight: ['400', '700'],
   subsets: ['latin']
@@ -35,6 +39,7 @@ export default function CustomModal (): JSX.Element {
         aria-describedby="modal-modal-description"
         style={{
           content: {
+            color: '#232946',
             backgroundColor: '#FFF6DC',
             maxWidth: '450px',
             height: 'fit-content',
@@ -46,18 +51,29 @@ export default function CustomModal (): JSX.Element {
         }}
         ariaHideApp={false}
       >
-        <div className='flex flex-col items-center select-none w-fit'>
+        <div className='flex flex-col items-center select-none w-fit p-1'>
           <h2 id="modal-modal-title" className="text-2xl font-bold text-[#352F44]">
-            {'<'}Web Full Stack Resources{' />'}
+            {'<'}Full Stack Resources{' />'}
           </h2>
-          <br />
-          <span className="text-sm text-center">
+          <span className="text-sm text-center m-2">
             This is a collection of resources for web full stack development.
-            It is a work in progress, so feel free to <a
+            It is a work in continuous progress, so feel free to <a
               href="https://github.com/jamerrq/resources-app"
               className='text-blue-600 font-bold' target='_blank' rel="noreferrer">
               contribute
             </a>.
+          </span>
+          <span className="text-base text-center font-bold">
+            Where these resources come from?
+          </span>
+          <span className="text-sm my-2 text-center">
+            Mostly came from social media, blogs, and other websites; but there are also some great people there sharing their knowledge and vital information. Huge thanks to them, specially to Miguel Ángel Durán <a href="https://midu.dev/" target="_blank">
+              <span className={`font-bold text-blue-600 ${firaMono.className}`}>@midu.dev</span>
+            </a>
+          </span>
+          <br />
+          <span className="text-sm">
+            Latest update: <span className="font-bold">Sat 14-Oct-23</span>
           </span>
           <br />
           <h3>- Created with -</h3>
@@ -84,9 +100,9 @@ export default function CustomModal (): JSX.Element {
             </li>
           </ul>
           <br />
-          <span className='text-sm'>
-            Developed with <IconHeartHandshake style={{ display: 'inline-block' }} color='#BB2525' fill='#FFBFBF' /> by <a href="https://github.com/jamerrq"
-              className='text-blue-600 font-bold' target='_blank' rel="noreferrer">@jamerrq</a>
+          <span className='text-sm text-red-600 font-semibold'>
+            Developed with <IconHeartFilled style={{ display: 'inline-block' }} /> by <a href="https://jamerrq-com.vercel.app/"
+              className={`text-blue-600 ${firaMono.className}`} target='_blank' rel="noreferrer"> @jamerrq</a>
           </span>
           <button onClick={closeModal} className="absolute top-1 right-1 " aria-label='close the modal'>
             <IconSquareRoundedXFilled size={20} />

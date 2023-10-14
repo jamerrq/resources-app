@@ -68,7 +68,7 @@ export default function Table (): JSX.Element {
             style={{ backgroundColor: tagsButtonColor, color: tagsButtonTextColor }}
           >{customIcon} TAGS</button>
         </div>
-        <div className="grid grid-cols-4 self-center overflow-hidden transition-all">
+        <div className="grid grid-cols-4 gap-x-4 self-center overflow-hidden transition-all">
           {showTags && (
             Array.from(allTags).sort().map((tag, index) => {
               return (
@@ -81,7 +81,7 @@ export default function Table (): JSX.Element {
           }
         </div>
       </div>
-      <span className='text-xs self-center text-red-900 font-bold'>
+      <span className='text-xs self-center text-[#eebbc3] font-bold'>
         {orderedData.length} results
       </span>
       <div className="grid gap-2 lg:grid-cols-2">
