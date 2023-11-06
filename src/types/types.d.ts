@@ -3,7 +3,7 @@ interface Item {
   name: string
   url: string
   description: string
-  tags?: (string)[]
+  tags: (string)[]
 }
 
 type HEX = `#${string}`
