@@ -15,8 +15,10 @@ export default function RootLayout ({
   children: React.ReactNode
 }): JSX.Element {
   return (
-        <html lang="en">
-            <body className={firaMono.className}>{children}</body>
-        </html>
+    <html lang="en" className={firaMono.className}>
+      <body className={process.env.NODE_ENV === 'development' ? 'debug-screens' : undefined}>
+        {children}
+      </body>
+    </html >
   )
 }
