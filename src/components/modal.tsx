@@ -5,17 +5,7 @@ import Modal from 'react-modal'
 import { BsFillInfoCircleFill } from 'react-icons/bs'
 import { IconBrandNextjs, IconBrandTypescript, IconBrandTailwind, IconSquareRoundedXFilled, IconHeartFilled } from '@tabler/icons-react'
 
-// Fonts
-// import { Bricolage_Grotesque } from 'next/font/google'
-import localFont from 'next/font/local'
-
-export const firaMono = localFont({ src: '../../public/fonts/Fira_Mono/FiraMono-Bold.ttf' })
-export const bricolageGrotesque = localFont({ src: '../../public/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf' })
-
-// const bricolageGrotesque = Bricolage_Grotesque({
-//   weight: ['400', '700'],
-//   subsets: ['latin']
-// })
+import { firaMono, bricolageGrotesque } from '@/fonts'
 
 export default function CustomModal (): JSX.Element {
   const [modalIsOpen, setModalIsOpen] = useState(false)
@@ -67,14 +57,16 @@ export default function CustomModal (): JSX.Element {
           <span className="text-base text-center font-bold">
             Where these resources come from?
           </span>
-          <span className="text-sm my-2 text-center">
-            Mostly came from social media, blogs, and other websites; but there are also some great people there sharing their knowledge and vital information. Huge thanks to them, specially to Miguel Ángel Durán <a href="https://midu.dev/" target="_blank">
-              <span className={`font-bold text-blue-600 ${firaMono.className}`}>@midu.dev</span>
+          <span className="text-sm my-1 text-center">
+            Mostly came from social media, blogs, and other websites; but there are also some great people there sharing their knowledge and vital information. Huge thanks to them, specially to Miguel Ángel Durán <a href="https://midu.dev/" target="_blank" className={`font-bold text-blue-600 ${firaMono.className}`}>
+              @midu.dev
+            </a> and <a href="https://twitter.com/carmenansio" target="_blank" className={`font-bold text-blue-600 ${firaMono.className}`}>
+              @carmenansio
             </a>
           </span>
           <br />
           <span className="text-sm">
-            Latest update: <span className="font-bold">Sat 14-Oct-23</span>
+            Latest update: <span className="font-bold">Mon 06-Nov-23</span>
           </span>
           <br />
           <h3>- Created with -</h3>
@@ -100,6 +92,9 @@ export default function CustomModal (): JSX.Element {
               </a>
             </li>
           </ul>
+          <span className="text-sm py-1">
+            Tested with <a className="text-[#729B1B] font-semibold" href="https://vitest.dev/guide/why.html" target="_blank">Vitest</a>
+          </span>
           <br />
           <span className='text-sm text-red-600 font-semibold'>
             Developed with <IconHeartFilled style={{ display: 'inline-block' }} /> by <a href="https://jamerrq-com.vercel.app/"
