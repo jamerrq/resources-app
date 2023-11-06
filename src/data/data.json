@@ -1212,6 +1212,156 @@
         "frontend",
         "charts"
       ]
+    },
+    {
+      "url": "https://responsively.app/",
+      "name": "Responsively",
+      "description": "A tool to preview responsive web pages on multiple devices at once.",
+      "tags": [
+        "tools",
+        "frontend",
+        "design"
+      ]
+    },
+    {
+      "url": "https://codember.dev/",
+      "name": "Codember",
+      "description": "Codember is a game with programming challenges and investigation. Every person that solves all the challenges, will win a prize.",
+      "tags": [
+        "games",
+        "skills"
+      ]
+    },
+    {
+      "url": "https://tailwind-converter.netlify.app/",
+      "description": "Easily convert CSS to Tailwind with this online converter. Paste in your Css and the tool takes care of the rest!",
+      "name": "CSS Tailwind Converter",
+      "tags": [
+        "tools",
+        "frontend",
+        "css",
+        "tailwind"
+      ]
+    },
+    {
+      "url": "https://m3.material.io/develop/web",
+      "description": "Material 3 is the latest version of Google's open-source design system. Design and build beautiful, usable products with Material 3.",
+      "name": "Material Design",
+      "tags": [
+        "tools",
+        "frontend",
+        "design",
+        "google"
+      ]
+    },
+    {
+      "url": "https://www.svgator.com/interactive-svg-animation",
+      "description": "SVGator is an easy-to-use SVG animation generator, generating CSS or JavaScript code as the animation type, making it easy to add crystal clear animations to your website.",
+      "name": "SVGator",
+      "tags": [
+        "tools",
+        "frontend",
+        "design",
+        "animations",
+        "svg"
+      ]
+    },
+    {
+      "url": "https://www.svg-animations.how/",
+      "name": "Interactive SVG Animations",
+      "description": "An interactive mini-course on creating SVG animations by Nanda Syahrasyad.",
+      "tags": [
+        "tools",
+        "frontend",
+        "design",
+        "animations",
+        "svg"
+      ]
+    },
+    {
+      "url": "https://lychee.cli.rs/#/",
+      "name": "Lychee. A fast, async link checker written in Rust",
+      "description": "Finds broken hyperlinks and mail addresses. Supports Markdown, HTML and more. Simple and lightweight",
+      "tags": [
+        "tools",
+        "backend",
+        "rust"
+      ]
+    },
+    {
+      "url": "https://publicapis.dev/",
+      "name": "Public APIs",
+      "description": "A collective list of free APIs for use in software and web development.",
+      "tags": [
+        "tools",
+        "backend",
+        "api"
+      ]
+    },
+    {
+      "url": "https://www.dark.design/",
+      "name": "Dark Themed Web Design Inspiration",
+      "description": "The best hand-picked dark themed websites on the internet.",
+      "tags": [
+        "tools",
+        "frontend",
+        "design",
+        "dark"
+      ]
+    },
+    {
+      "url": "https://dataflare.app/",
+      "name": "DataFlare",
+      "description": "A simple and elegant database manager. easily connect to your database, manage Table and execute Query.",
+      "tags": [
+        "tools",
+        "database",
+        "backend"
+      ]
+    },
+    {
+      "url": "https://www.programmingfonts.org/",
+      "name": "Programming Fonts",
+      "description": "Try out the best and newest monospace fonts for code!",
+      "tags": [
+        "tools",
+        "fonts"
+      ]
+    },
+    {
+      "url": "https://sqlbolt.com/",
+      "name": "SQLBolt",
+      "description": "A series of interactive lessons and exercises designed to help you quickly learn SQL right in your browser.",
+      "tags": [
+        "tools",
+        "backend",
+        "sql"
+      ]
+    },
+    {
+      "url": "https://markodenic.com/tools/buttons-generator/",
+      "name": "Button Generator",
+      "description": "CSS button generator is a free online tool you can use to create CSS button styles in one click.",
+      "tags": [
+        "tools",
+        "frontend",
+        "css"
+      ]
+    },
+    {
+      "url": "https://react-wrap-balancer.vercel.app/",
+      "name": "React Wrap Balancer",
+      "description": "A tool to help you balance your text in React components.",
+      "tags": [
+        "tools",
+        "frontend",
+        "react"
+      ]
+    },
+    {
+      "url": "https://lawsofux.com/es/",
+      "name": "Leyes de UX",
+      "description": "Leyes de UX es una colección de mejores prácticas que los diseñadores pueden considerar al crear interfaces de usuario."
     }
   ]
 }
