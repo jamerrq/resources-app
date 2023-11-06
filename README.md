@@ -12,6 +12,10 @@ a collection of resources for web full stack development
 ![ESLint](https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
 ![Vitest](https://img.shields.io/badge/Vitest-000000?style=for-the-badge&logo=vite&logoColor=white)
 
+## Badges
+
+[![CI & ESLint & Tests](https://github.com/jamerrq/resources-app/actions/workflows/ci-eslint-tests.yml/badge.svg)](https://github.com/jamerrq/resources-app/actions/workflows/ci-eslint-tests.yml)
+
 ## CopyRight
 
 CopyRight (c) 2023-present [Jamer José](https://github.com/jamerrq)
