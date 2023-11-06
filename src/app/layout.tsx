@@ -16,6 +16,7 @@ export default function RootLayout ({
 }): JSX.Element {
   return (
     <html lang="en" className={firaMono.className}>
+      <link rel="icon" href="../public/favicon.ico" sizes="any" />
       <body className={process.env.NODE_ENV === 'development' ? 'debug-screens' : undefined}>
         {children}
       </body>
