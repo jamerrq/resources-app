@@ -6,15 +6,16 @@ import { BsFillInfoCircleFill } from 'react-icons/bs'
 import { IconBrandNextjs, IconBrandTypescript, IconBrandTailwind, IconSquareRoundedXFilled, IconHeartFilled } from '@tabler/icons-react'
 
 // Fonts
-import { Bricolage_Grotesque } from 'next/font/google'
+// import { Bricolage_Grotesque } from 'next/font/google'
 import localFont from 'next/font/local'
 
 export const firaMono = localFont({ src: '../../public/fonts/Fira_Mono/FiraMono-Bold.ttf' })
+export const bricolageGrotesque = localFont({ src: '../../public/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf' })
 
-const bricolageGrotesque = Bricolage_Grotesque({
-  weight: ['400', '700'],
-  subsets: ['latin']
-})
+// const bricolageGrotesque = Bricolage_Grotesque({
+//   weight: ['400', '700'],
+//   subsets: ['latin']
+// })
 
 export default function CustomModal (): JSX.Element {
   const [modalIsOpen, setModalIsOpen] = useState(false)
